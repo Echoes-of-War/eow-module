@@ -1,0 +1,101 @@
+{
+  "__data_type": "UTI ",
+  "AddCost": {
+    "type": "dword",
+    "value": 0
+  },
+  "BaseItem": {
+    "type": "int",
+    "value": 63
+  },
+  "Charges": {
+    "type": "byte",
+    "value": 0
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": "The chakram uses the axe appearance when flying through the air. Unfortunately, NWN currently does not allow for new thrown weapons so this is the best that can be currently done."
+  },
+  "Cost": {
+    "type": "dword",
+    "value": 0
+  },
+  "Cursed": {
+    "type": "byte",
+    "value": 0
+  },
+  "DescIdentified": {
+    "type": "cexolocstring",
+    "value": {
+      "id": 16807830
+    }
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "id": 16807830
+    }
+  },
+  "Identified": {
+    "type": "byte",
+    "value": 1
+  },
+  "LocalizedName": {
+    "type": "cexolocstring",
+    "value": {
+      "id": 16807370
+    }
+  },
+  "ModelPart1": {
+    "type": "byte",
+    "value": 251
+  },
+  "ModelPart2": {
+    "type": "byte",
+    "value": 252
+  },
+  "ModelPart3": {
+    "type": "byte",
+    "value": 251
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 52
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PropertiesList": {
+    "type": "list",
+    "value": []
+  },
+  "StackSize": {
+    "type": "word",
+    "value": 50
+  },
+  "Stolen": {
+    "type": "byte",
+    "value": 0
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "ZEP_CHAKRAM"
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "zep_chakram"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 251
+  },
+  "xModelPart2": {
+    "type": "word",
+    "value": 252
+  },
+  "xModelPart3": {
+    "type": "word",
+    "value": 251
+  }
+}

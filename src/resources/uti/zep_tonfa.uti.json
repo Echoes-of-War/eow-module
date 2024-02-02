@@ -1,0 +1,101 @@
+{
+  "__data_type": "UTI ",
+  "AddCost": {
+    "type": "dword",
+    "value": 0
+  },
+  "BaseItem": {
+    "type": "int",
+    "value": 303
+  },
+  "Charges": {
+    "type": "byte",
+    "value": 0
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": "Comment, There are no known issues with this weapon except that there are no custom feats for weapon focus or weapon specialization for it."
+  },
+  "Cost": {
+    "type": "dword",
+    "value": 6
+  },
+  "Cursed": {
+    "type": "byte",
+    "value": 0
+  },
+  "DescIdentified": {
+    "type": "cexolocstring",
+    "value": {
+      "id": 16807795
+    }
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "id": 16807795
+    }
+  },
+  "Identified": {
+    "type": "byte",
+    "value": 1
+  },
+  "LocalizedName": {
+    "type": "cexolocstring",
+    "value": {
+      "id": 16807738
+    }
+  },
+  "ModelPart1": {
+    "type": "byte",
+    "value": 71
+  },
+  "ModelPart2": {
+    "type": "byte",
+    "value": 71
+  },
+  "ModelPart3": {
+    "type": "byte",
+    "value": 71
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 47
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PropertiesList": {
+    "type": "list",
+    "value": []
+  },
+  "StackSize": {
+    "type": "word",
+    "value": 1
+  },
+  "Stolen": {
+    "type": "byte",
+    "value": 0
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "ZEP_TONFA"
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "zep_tonfa"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 71
+  },
+  "xModelPart2": {
+    "type": "word",
+    "value": 71
+  },
+  "xModelPart3": {
+    "type": "word",
+    "value": 71
+  }
+}
