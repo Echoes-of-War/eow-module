@@ -88,6 +88,10 @@
       "0": "Halfling Fence - 2 rail (smooth)"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

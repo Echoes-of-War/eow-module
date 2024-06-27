@@ -22363,6 +22363,44 @@
                     "__struct_id": 0,
                     "CR": {
                       "type": "float",
+                      "value": 0.5
+                    },
+                    "FACTION": {
+                      "type": "cexostring",
+                      "value": "Commoner"
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Tailoring Model"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tailoringmode001"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "CR": {
+                      "type": "float",
+                      "value": 0.5
+                    },
+                    "FACTION": {
+                      "type": "cexostring",
+                      "value": "Commoner"
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Tailoring Model"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tailoringmodel01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "CR": {
+                      "type": "float",
                       "value": 0.25
                     },
                     "FACTION": {
@@ -22376,6 +22414,25 @@
                     "RESREF": {
                       "type": "resref",
                       "value": "tbx_social_m01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "CR": {
+                      "type": "float",
+                      "value": 4.0
+                    },
+                    "FACTION": {
+                      "type": "cexostring",
+                      "value": "Defender"
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Zazesspur City Guard"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "eow_zazguard"
                     }
                   }
                 ]
@@ -22791,7 +22848,7 @@
                     "__struct_id": 0,
                     "CR": {
                       "type": "float",
-                      "value": 4.0
+                      "value": 5.0
                     },
                     "FACTION": {
                       "type": "cexostring",
@@ -22810,7 +22867,7 @@
                     "__struct_id": 0,
                     "CR": {
                       "type": "float",
-                      "value": 4.0
+                      "value": 5.0
                     },
                     "FACTION": {
                       "type": "cexostring",
@@ -22829,7 +22886,7 @@
                     "__struct_id": 0,
                     "CR": {
                       "type": "float",
-                      "value": 4.0
+                      "value": 5.0
                     },
                     "FACTION": {
                       "type": "cexostring",
@@ -22848,7 +22905,7 @@
                     "__struct_id": 0,
                     "CR": {
                       "type": "float",
-                      "value": 4.0
+                      "value": 5.0
                     },
                     "FACTION": {
                       "type": "cexostring",
@@ -22927,44 +22984,6 @@
                     "STRREF": {
                       "type": "dword",
                       "value": 16808764
-                    }
-                  },
-                  {
-                    "__struct_id": 0,
-                    "CR": {
-                      "type": "float",
-                      "value": 10.0
-                    },
-                    "FACTION": {
-                      "type": "cexostring",
-                      "value": "Commoner"
-                    },
-                    "NAME": {
-                      "type": "cexostring",
-                      "value": "Tailoring Model"
-                    },
-                    "RESREF": {
-                      "type": "resref",
-                      "value": "tailoringmode001"
-                    }
-                  },
-                  {
-                    "__struct_id": 0,
-                    "CR": {
-                      "type": "float",
-                      "value": 10.0
-                    },
-                    "FACTION": {
-                      "type": "cexostring",
-                      "value": "Commoner"
-                    },
-                    "NAME": {
-                      "type": "cexostring",
-                      "value": "Tailoring Model"
-                    },
-                    "RESREF": {
-                      "type": "resref",
-                      "value": "tailoringmodel01"
                     }
                   }
                 ]
@@ -23051,6 +23070,44 @@
               "RESREF": {
                 "type": "resref",
                 "value": "zep_sampletint"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "CR": {
+                "type": "float",
+                "value": 9.0
+              },
+              "FACTION": {
+                "type": "cexostring",
+                "value": "DMFI"
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Settings Adjuster"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "dmfi_setting"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "CR": {
+                "type": "float",
+                "value": 2.0
+              },
+              "FACTION": {
+                "type": "cexostring",
+                "value": "DMFI"
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "The Voice"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "dmfi_voice"
               }
             }
           ]

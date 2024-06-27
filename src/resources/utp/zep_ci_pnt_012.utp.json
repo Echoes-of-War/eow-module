@@ -88,6 +88,10 @@
       "0": "Painting - Small Man w/feather cap"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

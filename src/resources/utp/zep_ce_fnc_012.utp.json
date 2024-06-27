@@ -88,6 +88,10 @@
       "0": "Halfling Fence Post - 3 rail"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

@@ -176,7 +176,7 @@
   },
   "TemplateResRef": {
     "type": "resref",
-    "value": "blueprint008"
+    "value": "zep_wrm008"
   },
   "TrapDetectable": {
     "type": "byte",

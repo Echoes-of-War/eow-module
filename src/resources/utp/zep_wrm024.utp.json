@@ -176,7 +176,7 @@
   },
   "TemplateResRef": {
     "type": "resref",
-    "value": "wrm_tree_willow"
+    "value": "zep_wrm024"
   },
   "TrapDetectable": {
     "type": "byte",

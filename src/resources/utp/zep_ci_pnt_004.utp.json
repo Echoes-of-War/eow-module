@@ -88,6 +88,10 @@
       "0": "Painting - Large Interior"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

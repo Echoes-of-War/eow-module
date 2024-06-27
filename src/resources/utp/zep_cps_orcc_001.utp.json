@@ -86,6 +86,10 @@
       "0": "Orc Chief Corpse (back)"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

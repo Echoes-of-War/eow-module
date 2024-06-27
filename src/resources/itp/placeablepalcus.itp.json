@@ -14307,22 +14307,22 @@
                     "__struct_id": 0,
                     "RESREF": {
                       "type": "resref",
-                      "value": "zep_candle01"
-                    },
-                    "STRREF": {
-                      "type": "dword",
-                      "value": 16811348
-                    }
-                  },
-                  {
-                    "__struct_id": 0,
-                    "RESREF": {
-                      "type": "resref",
                       "value": "zep_ocandle01"
                     },
                     "STRREF": {
                       "type": "dword",
                       "value": 16811350
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Candle, Short, On"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "zep_candle01"
                     }
                   },
                   {
@@ -14455,6 +14455,28 @@
                     "RESREF": {
                       "type": "resref",
                       "value": "zep_ci_lgt_004"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Small Candle Off"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "eow_candleoff"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Small Candle On"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "eow_candleon"
                     }
                   }
                 ]
@@ -22807,6 +22829,72 @@
                       "value": [
                         {
                           "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Green Bush Large"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "zep_shrub045"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Green Fern Large"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "zep_shrub044"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Green Grass Patch 1"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "zep_shrub046"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Red Grass Patch 1"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "zep_shrub043"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Shrubbery 1"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "zep_shrub039"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Small Shrub 1"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "zep_shrub040"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
                           "RESREF": {
                             "type": "resref",
                             "value": "zep_shrub001"
@@ -28177,6 +28265,17 @@
                   },
                   {
                     "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Notice Board"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "eowt_noticeb"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
                     "RESREF": {
                       "type": "resref",
                       "value": "zep_banner022"
@@ -28490,6 +28589,110 @@
               "ID": {
                 "type": "byte",
                 "value": 4
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "<cÿÿÿ><cÿÿ ><cÿ ÿ><c ÿÿ><cÿ  ><c ÿ ><c  ÿ><cÿÿÿ>Color Tag Generator"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "dem_color_text"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Adventurer's Tent"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "resting_tent"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Campfire"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "rest_fire_on"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Campfire, Unlit"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "rest_fire_off"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "DMFI Bed Roll"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "dmfi_rest002"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "DMFI Campfire"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "dmfi_rest001"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "DMFI Invisible Rest Object"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "dmfi_rest"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "DMFI Rest VFX Applier"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "dmfi_restvfxobje"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "DMFI Tent"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "dmfi_rest003"
+                    }
+                  }
+                ]
               },
               "STRREF": {
                 "type": "dword",

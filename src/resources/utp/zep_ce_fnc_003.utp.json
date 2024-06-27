@@ -88,6 +88,10 @@
       "0": "Halfling Fence - 4 rail"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

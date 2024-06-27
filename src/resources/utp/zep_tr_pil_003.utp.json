@@ -88,6 +88,10 @@
       "0": "Treasure Pile - ring"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

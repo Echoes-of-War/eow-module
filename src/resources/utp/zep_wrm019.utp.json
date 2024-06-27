@@ -176,7 +176,7 @@
   },
   "TemplateResRef": {
     "type": "resref",
-    "value": "wrm_spruce_large"
+    "value": "zep_wrm019"
   },
   "TrapDetectable": {
     "type": "byte",

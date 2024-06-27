@@ -88,6 +88,10 @@
       "0": "Seashell - Angel's Wing (baby)"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

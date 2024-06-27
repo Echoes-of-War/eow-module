@@ -21,19 +21,8 @@ string GetCachedACBonus(string sFile, int iRow);
 
 void main()
 {
-    object oNPCItem;
-    object oPCItem;
-
-    if(GetLocalInt(OBJECT_SELF, "IsCloakModel") == 1)
-    {
-        oNPCItem = GetItemInSlot(INVENTORY_SLOT_CLOAK, OBJECT_SELF);
-        oPCItem = GetItemInSlot(INVENTORY_SLOT_CLOAK, oPC);
-    }
-    else
-    {
-        oNPCItem = GetItemInSlot(INVENTORY_SLOT_CHEST, OBJECT_SELF);
-        oPCItem = GetItemInSlot(INVENTORY_SLOT_CHEST, oPC);
-    }
+    object oNPCItem = GetItemInSlot(INVENTORY_SLOT_CHEST, OBJECT_SELF);
+    object oPCItem = GetItemInSlot(INVENTORY_SLOT_CHEST, oPC);
 
     //int iCost = GetGoldPieceValue(oNPCItem) + FloatToInt(IntToFloat(GetGoldPieceValue(oPCItem)) * 0.2f);
     int iCost = GetLocalInt(OBJECT_SELF, "CURRENTPRICE");
@@ -43,12 +32,9 @@ void main()
         return;
     }
 
-    if(GetLocalInt(OBJECT_SELF, "IsCloakModel") != 1)
-    {
-        if (!CompareAC(oNPCItem, oPCItem)) {
-            SendMessageToPC(oPC, "You may only copy the appearance of items with the same base AC values.");
-            return;
-        }
+    if (!CompareAC(oNPCItem, oPCItem)) {
+        SendMessageToPC(oPC, "You may only copy the appearance of items with the same base AC values.");
+        return;
     }
 
     TakeGoldFromCreature(iCost, oPC, TRUE);
@@ -61,15 +47,8 @@ void main()
     object oOnPC = CopyItem(oNew, oPC, TRUE);
     DestroyObject(oNew);
 
-    // Equip
-    if(GetLocalInt(OBJECT_SELF, "IsCloakModel") == 1)
-    {
-        DelayCommand(0.5f, AssignCommand(oPC, ActionEquipItem(oOnPC, INVENTORY_SLOT_CLOAK)));
-    }
-    else
-    {
-        DelayCommand(0.5f, AssignCommand(oPC, ActionEquipItem(oOnPC, INVENTORY_SLOT_CHEST)));
-    }
+    // Equip the armor
+    DelayCommand(0.5f, AssignCommand(oPC, ActionEquipItem(oOnPC, INVENTORY_SLOT_CHEST)));
 
     // Set armor editable again
     DelayCommand(3.0f, DeleteLocalInt(oOnPC, "mil_EditingItem"));
@@ -125,18 +104,6 @@ object CopyItemAppearace(object oSource, object oTarget) {
 
 
 ////// Copy Design
-
-    // Cloak
-    if(GetLocalInt(OBJECT_SELF, "IsCloakModel") == 1 &&
-       GetIsObjectValid(GetItemInSlot(INVENTORY_SLOT_CLOAK, oPC)))
-    {
-        iSourceValue = GetItemAppearance(oSource, ITEM_APPR_TYPE_SIMPLE_MODEL, 0);
-        oCurrent = oNew;
-        oNew = CopyItemAndModify(oCurrent, ITEM_APPR_TYPE_SIMPLE_MODEL, 0, iSourceValue, TRUE);
-        DestroyObject(oCurrent);
-    }
-    else
-    {
     // Belt
     iSourceValue = GetItemAppearance(oSource, ITEM_APPR_TYPE_ARMOR_MODEL, ITEM_APPR_ARMOR_MODEL_BELT);
     oCurrent = oNew;
@@ -250,7 +217,6 @@ object CopyItemAppearace(object oSource, object oTarget) {
     oCurrent = oNew;
     oNew = CopyItemAndModify(oCurrent, ITEM_APPR_TYPE_ARMOR_MODEL, ITEM_APPR_ARMOR_MODEL_TORSO, iSourceValue, TRUE);
     DestroyObject(oCurrent);
-    }
 
     return oNew;
 }
@@ -264,7 +230,6 @@ int CompareAC(object oFirst, object oSecond) {
 
     return (StringToInt(sFirstAC) == StringToInt(sSecondAC));
 }
-
 
 string GetCachedACBonus(string sFile, int iRow) {
     string sACBonus = GetLocalString(GetModule(), sFile + IntToString(iRow));

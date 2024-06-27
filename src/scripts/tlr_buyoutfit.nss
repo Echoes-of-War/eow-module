@@ -13,16 +13,7 @@
 void main()
 {
     object oPC = GetPCSpeaker();
-    object oItem;
-
-    if(GetLocalInt(OBJECT_SELF, "IsCloakModel") == 1)
-    {
-        oItem = GetItemInSlot(INVENTORY_SLOT_CLOAK, OBJECT_SELF);
-    }
-    else
-    {
-        oItem = GetItemInSlot(INVENTORY_SLOT_CHEST, OBJECT_SELF);
-    }
+    object oItem = GetItemInSlot(INVENTORY_SLOT_CHEST, OBJECT_SELF);
 
     //-- int iCost = GetGoldPieceValue(oItem) * 2;
     int iCost = GetLocalInt(OBJECT_SELF, "CURRENTPRICE");
@@ -35,9 +26,5 @@ void main()
 
     TakeGoldFromCreature(iCost, oPC, TRUE);
 
-    object oPCCopy = CopyItem(oItem, oPC, TRUE);
-
-    string sName = GetLocalString(OBJECT_SELF, "CUSTOMNAME");
-    if(sName != "")
-    {  SetName(oPCCopy, sName);  }
+    CopyItem(oItem, oPC, TRUE);
 }

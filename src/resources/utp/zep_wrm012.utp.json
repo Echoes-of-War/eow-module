@@ -176,7 +176,7 @@
   },
   "TemplateResRef": {
     "type": "resref",
-    "value": "wrm_mirkwood_lar"
+    "value": "zep_wrm012"
   },
   "TrapDetectable": {
     "type": "byte",

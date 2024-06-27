@@ -7,7 +7,7 @@
       "__struct_id": 100,
       "AmbientSndDay": {
         "type": "int",
-        "value": 10
+        "value": 12
       },
       "AmbientSndDayVol": {
         "type": "int",
@@ -15,7 +15,7 @@
       },
       "AmbientSndNight": {
         "type": "int",
-        "value": 11
+        "value": 14
       },
       "AmbientSndNitVol": {
         "type": "int",
@@ -1378,11 +1378,11 @@
         },
         "X": {
           "type": "float",
-          "value": 20.06680297851563
+          "value": 18.91116523742676
         },
         "Y": {
           "type": "float",
-          "value": 41.50141906738281
+          "value": 40.35678482055664
         },
         "Z": {
           "type": "float",
@@ -1836,11 +1836,11 @@
         },
         "X": {
           "type": "float",
-          "value": 18.36240959167481
+          "value": 17.55601692199707
         },
         "Y": {
           "type": "float",
-          "value": 52.62672424316406
+          "value": 52.5557861328125
         },
         "Z": {
           "type": "float",
@@ -6027,15 +6027,15 @@
         },
         "X": {
           "type": "float",
-          "value": 20.12249755859375
+          "value": 19.29789352416992
         },
         "Y": {
           "type": "float",
-          "value": 50.84012222290039
+          "value": 50.81793212890625
         },
         "Z": {
           "type": "float",
-          "value": 4.999995708465576
+          "value": 4.999994277954102
         }
       },
       {
@@ -6521,11 +6521,11 @@
         },
         "X": {
           "type": "float",
-          "value": 18.29560852050781
+          "value": 17.48333168029785
         },
         "Y": {
           "type": "float",
-          "value": 56.65276718139648
+          "value": 56.59055709838867
         },
         "Z": {
           "type": "float",
@@ -12692,278 +12692,7 @@
   },
   "SoundList": {
     "type": "list",
-    "value": [
-      {
-        "__struct_id": 6,
-        "Active": {
-          "type": "byte",
-          "value": 1
-        },
-        "Continuous": {
-          "type": "byte",
-          "value": 1
-        },
-        "Elevation": {
-          "type": "float",
-          "value": 1.5
-        },
-        "GeneratedType": {
-          "type": "dword",
-          "value": 0
-        },
-        "Hours": {
-          "type": "dword",
-          "value": 0
-        },
-        "Interval": {
-          "type": "dword",
-          "value": 25000
-        },
-        "IntervalVrtn": {
-          "type": "dword",
-          "value": 5000
-        },
-        "LocName": {
-          "type": "cexolocstring",
-          "value": {
-            "id": 67819
-          }
-        },
-        "Looping": {
-          "type": "byte",
-          "value": 0
-        },
-        "MaxDistance": {
-          "type": "float",
-          "value": 10.0
-        },
-        "MinDistance": {
-          "type": "float",
-          "value": 1.0
-        },
-        "PitchVariation": {
-          "type": "float",
-          "value": 0.2000000029802322
-        },
-        "Positional": {
-          "type": "byte",
-          "value": 0
-        },
-        "Priority": {
-          "type": "byte",
-          "value": 19
-        },
-        "Random": {
-          "type": "byte",
-          "value": 1
-        },
-        "RandomPosition": {
-          "type": "byte",
-          "value": 0
-        },
-        "RandomRangeX": {
-          "type": "float",
-          "value": 0.0
-        },
-        "RandomRangeY": {
-          "type": "float",
-          "value": 0.0
-        },
-        "Sounds": {
-          "type": "list",
-          "value": [
-            {
-              "__struct_id": 0,
-              "Sound": {
-                "type": "resref",
-                "value": "as_cv_chiseling1"
-              }
-            },
-            {
-              "__struct_id": 0,
-              "Sound": {
-                "type": "resref",
-                "value": "as_cv_chiseling2"
-              }
-            },
-            {
-              "__struct_id": 0,
-              "Sound": {
-                "type": "resref",
-                "value": "as_cv_chiseling3"
-              }
-            }
-          ]
-        },
-        "Tag": {
-          "type": "cexostring",
-          "value": "Chiselings"
-        },
-        "TemplateResRef": {
-          "type": "resref",
-          "value": "chiselings"
-        },
-        "Times": {
-          "type": "byte",
-          "value": 3
-        },
-        "Volume": {
-          "type": "byte",
-          "value": 63
-        },
-        "VolumeVrtn": {
-          "type": "byte",
-          "value": 0
-        },
-        "XPosition": {
-          "type": "float",
-          "value": 9.980635643005371
-        },
-        "YPosition": {
-          "type": "float",
-          "value": 19.77740669250488
-        },
-        "ZPosition": {
-          "type": "float",
-          "value": 11.5
-        }
-      },
-      {
-        "__struct_id": 6,
-        "Active": {
-          "type": "byte",
-          "value": 1
-        },
-        "Continuous": {
-          "type": "byte",
-          "value": 1
-        },
-        "Elevation": {
-          "type": "float",
-          "value": 1.5
-        },
-        "GeneratedType": {
-          "type": "dword",
-          "value": 0
-        },
-        "Hours": {
-          "type": "dword",
-          "value": 0
-        },
-        "Interval": {
-          "type": "dword",
-          "value": 45000
-        },
-        "IntervalVrtn": {
-          "type": "dword",
-          "value": 5000
-        },
-        "LocName": {
-          "type": "cexolocstring",
-          "value": {
-            "id": 67868
-          }
-        },
-        "Looping": {
-          "type": "byte",
-          "value": 0
-        },
-        "MaxDistance": {
-          "type": "float",
-          "value": 10.0
-        },
-        "MinDistance": {
-          "type": "float",
-          "value": 1.0
-        },
-        "PitchVariation": {
-          "type": "float",
-          "value": 0.2000000029802322
-        },
-        "Positional": {
-          "type": "byte",
-          "value": 0
-        },
-        "Priority": {
-          "type": "byte",
-          "value": 19
-        },
-        "Random": {
-          "type": "byte",
-          "value": 1
-        },
-        "RandomPosition": {
-          "type": "byte",
-          "value": 0
-        },
-        "RandomRangeX": {
-          "type": "float",
-          "value": 0.0
-        },
-        "RandomRangeY": {
-          "type": "float",
-          "value": 0.0
-        },
-        "Sounds": {
-          "type": "list",
-          "value": [
-            {
-              "__struct_id": 0,
-              "Sound": {
-                "type": "resref",
-                "value": "as_cv_hammering1"
-              }
-            },
-            {
-              "__struct_id": 0,
-              "Sound": {
-                "type": "resref",
-                "value": "as_cv_hammering2"
-              }
-            },
-            {
-              "__struct_id": 0,
-              "Sound": {
-                "type": "resref",
-                "value": "as_cv_hammering3"
-              }
-            }
-          ]
-        },
-        "Tag": {
-          "type": "cexostring",
-          "value": "Hammerings"
-        },
-        "TemplateResRef": {
-          "type": "resref",
-          "value": "hammerings"
-        },
-        "Times": {
-          "type": "byte",
-          "value": 3
-        },
-        "Volume": {
-          "type": "byte",
-          "value": 63
-        },
-        "VolumeVrtn": {
-          "type": "byte",
-          "value": 0
-        },
-        "XPosition": {
-          "type": "float",
-          "value": 10.00253105163574
-        },
-        "YPosition": {
-          "type": "float",
-          "value": 22.35837364196777
-        },
-        "ZPosition": {
-          "type": "float",
-          "value": 11.49999809265137
-        }
-      }
-    ]
+    "value": []
   },
   "StoreList": {
     "type": "list",

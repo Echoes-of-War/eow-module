@@ -88,6 +88,10 @@
       "0": "Painting - Small Matronly Mother"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

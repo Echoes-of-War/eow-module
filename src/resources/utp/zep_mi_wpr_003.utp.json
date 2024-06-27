@@ -88,6 +88,10 @@
       "0": "Weapon Rack - Old 3 Swords"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

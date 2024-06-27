@@ -86,6 +86,10 @@
       "0": "Corpse Pile 2"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

@@ -88,6 +88,10 @@
       "0": "Treasure Pile - sword and books"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

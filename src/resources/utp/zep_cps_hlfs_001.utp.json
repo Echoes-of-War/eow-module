@@ -88,6 +88,10 @@
       "0": "Halfling Corpse, Sitting"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

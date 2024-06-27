@@ -88,6 +88,10 @@
       "0": "Halfling Chimney - square tall"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

@@ -86,6 +86,10 @@
       "0": "Bugbear Chief Corpse (arrows)"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

@@ -88,6 +88,10 @@
       "0": "Ogre Wizard Corpse (arrows)"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

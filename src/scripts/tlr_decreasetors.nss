@@ -9,9 +9,7 @@
 //:://////////////////////////////////////////////
 //:: Created By: Jake E. Fitch (Milambus Mandragon)
 //:: Created On: March 9, 2004
-//-- bloodsong meddling and adding restriction values
 //:://////////////////////////////////////////////
-#include "tlr_include"
 
 // Get a Cached 2DA string.  If its not cached read it from the 2DA file and cache it.
 string GetCachedACBonus(string sFile, int iRow);
@@ -33,19 +31,10 @@ void main()
     string s2DA_ACBonus = GetCachedACBonus(s2DAFile, iNewApp);
     //SendMessageToPC(oPC,"s2DA_ACBonus: " + s2DA_ACBonus);
 
-//-- restriction list section vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-
-    int nGender = GetGender(OBJECT_SELF);
-
-    while (StringToInt(s2DA_ACBonus) != iFilter ||
-           TorsoIsInvalid(iNewApp, nGender)) //--END Restrictions ^^^^^^^
-    {
-        if (s2DA_ACBonus == "-2")
-        {
+    while (StringToInt(s2DA_ACBonus) != iFilter) {
+        if (s2DA_ACBonus == "-2") {
             iNewApp = GetCachedLimit(s2DAFile);
-        }
-        else
-        {
+        } else {
             iNewApp--;
         }
 

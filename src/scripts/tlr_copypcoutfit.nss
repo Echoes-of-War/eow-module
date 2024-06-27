@@ -14,19 +14,8 @@ void main()
 {
     object oPC = GetPCSpeaker();
 
-    object oItem;
-    object oSource;
-
-    if(GetLocalInt(OBJECT_SELF, "IsCloakModel") == 1)
-    {
-        oItem = GetItemInSlot(INVENTORY_SLOT_CLOAK, OBJECT_SELF);
-        oSource = GetItemInSlot(INVENTORY_SLOT_CLOAK, oPC);
-    }
-    else
-    {
-        oItem = GetItemInSlot(INVENTORY_SLOT_CHEST, OBJECT_SELF);
-        oSource = GetItemInSlot(INVENTORY_SLOT_CHEST, oPC);
-    }
+    object oSource = GetItemInSlot(INVENTORY_SLOT_CHEST, oPC);
+    object oItem = GetItemInSlot(INVENTORY_SLOT_CHEST, OBJECT_SELF);
 
     int iSourceValue;
     object oCurrent, oNew;
@@ -70,18 +59,6 @@ void main()
 
 
 ////// Copy Design
-
-    // Cloak
-    if(GetLocalInt(OBJECT_SELF, "IsCloakModel") == 1 &&
-       GetIsObjectValid(GetItemInSlot(INVENTORY_SLOT_CLOAK, oPC)))
-    {
-        iSourceValue = GetItemAppearance(oSource, ITEM_APPR_TYPE_SIMPLE_MODEL, 0);
-        oCurrent = oNew;
-        oNew = CopyItemAndModify(oCurrent, ITEM_APPR_TYPE_SIMPLE_MODEL, 0, iSourceValue, TRUE);
-        DestroyObject(oCurrent);
-    }
-    else
-    {
     // Belt
     iSourceValue = GetItemAppearance(oSource, ITEM_APPR_TYPE_ARMOR_MODEL, ITEM_APPR_ARMOR_MODEL_BELT);
     oCurrent = oNew;
@@ -195,15 +172,7 @@ void main()
     oCurrent = oNew;
     oNew = CopyItemAndModify(oCurrent, ITEM_APPR_TYPE_ARMOR_MODEL, ITEM_APPR_ARMOR_MODEL_TORSO, iSourceValue, TRUE);
     DestroyObject(oCurrent);
-    }
 
     // Equip
-    if(GetLocalInt(OBJECT_SELF, "IsCloakModel") == 1)
-    {
-        DelayCommand(0.5f, AssignCommand(OBJECT_SELF, ActionEquipItem(oNew, INVENTORY_SLOT_CLOAK)));
-    }
-    else
-    {
-        DelayCommand(0.5f, AssignCommand(OBJECT_SELF, ActionEquipItem(oNew, INVENTORY_SLOT_CHEST)));
-    }
+    DelayCommand(0.5f, AssignCommand(OBJECT_SELF, ActionEquipItem(oNew, INVENTORY_SLOT_CHEST)));
 }

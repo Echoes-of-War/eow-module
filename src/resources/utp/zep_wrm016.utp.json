@@ -176,7 +176,7 @@
   },
   "TemplateResRef": {
     "type": "resref",
-    "value": "wrm_rock_medium"
+    "value": "zep_wrm016"
   },
   "TrapDetectable": {
     "type": "byte",

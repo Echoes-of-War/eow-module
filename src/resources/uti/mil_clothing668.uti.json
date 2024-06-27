@@ -42,7 +42,7 @@
   },
   "ArmorPart_Pelvis": {
     "type": "byte",
-    "value": 12
+    "value": 22
   },
   "ArmorPart_RBicep": {
     "type": "byte",
@@ -78,7 +78,7 @@
   },
   "ArmorPart_Torso": {
     "type": "byte",
-    "value": 8
+    "value": 6
   },
   "BaseItem": {
     "type": "int",
@@ -90,11 +90,11 @@
   },
   "Cloth1Color": {
     "type": "byte",
-    "value": 7
+    "value": 25
   },
   "Cloth2Color": {
     "type": "byte",
-    "value": 7
+    "value": 23
   },
   "Comment": {
     "type": "cexostring",
@@ -122,25 +122,25 @@
   },
   "Leather1Color": {
     "type": "byte",
-    "value": 7
+    "value": 37
   },
   "Leather2Color": {
     "type": "byte",
-    "value": 7
+    "value": 23
   },
   "LocalizedName": {
     "type": "cexolocstring",
     "value": {
-      "0": "Custom Outfit"
+      "0": "Custom Male"
     }
   },
   "Metal1Color": {
     "type": "byte",
-    "value": 2
+    "value": 7
   },
   "Metal2Color": {
     "type": "byte",
-    "value": 2
+    "value": 7
   },
   "PaletteID": {
     "type": "byte",
@@ -208,7 +208,7 @@
   },
   "xArmorPart_Pelvi": {
     "type": "word",
-    "value": 12
+    "value": 22
   },
   "xArmorPart_RBice": {
     "type": "word",
@@ -244,6 +244,6 @@
   },
   "xArmorPart_Torso": {
     "type": "word",
-    "value": 8
+    "value": 6
   }
 }

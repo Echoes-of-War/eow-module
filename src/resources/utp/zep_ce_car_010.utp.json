@@ -88,6 +88,10 @@
       "0": "Small Wagon - crates"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

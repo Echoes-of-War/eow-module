@@ -88,6 +88,10 @@
       "0": "Female Corpse (back)"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

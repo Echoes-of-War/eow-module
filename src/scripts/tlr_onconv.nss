@@ -20,8 +20,6 @@ void main()
     // predefined patterns
     int nMatch = GetListenPatternNumber();
     object oShouter = GetLastSpeaker();
-    if(!GetIsPC(oShouter))
-        return;
 
     if (nMatch == -1) {
         if (GetCommandable(OBJECT_SELF))

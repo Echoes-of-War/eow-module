@@ -86,6 +86,10 @@
       "0": "Treasure Pile - gem and keg"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

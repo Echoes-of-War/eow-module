@@ -88,6 +88,10 @@
       "0": "Large Wagon - empty"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

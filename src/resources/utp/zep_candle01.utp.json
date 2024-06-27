@@ -85,8 +85,13 @@
   "LocName": {
     "type": "cexolocstring",
     "value": {
+      "0": "Candle, Short, On",
       "id": 16811348
     }
+  },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
   },
   "OnClosed": {
     "type": "resref",
@@ -206,7 +211,7 @@
   },
   "Useable": {
     "type": "byte",
-    "value": 0
+    "value": 1
   },
   "VarTable": {
     "type": "list",

@@ -9,9 +9,7 @@
 //:://////////////////////////////////////////////
 //:: Created By: Jake E. Fitch (Milambus Mandragon)
 //:: Created On: March 8, 2004
-//-- bloodsong meddling and adding restriction values
 //:://////////////////////////////////////////////
-#include "tlr_include"
 
 // Get a Cached 2DA string.  If its not cached read it from the 2DA file and cache it.
 string GetCachedACBonus(string sFile, int iRow);
@@ -32,89 +30,6 @@ void main()
 
     string s2DA_ACBonus = GetCachedACBonus(s2DAFile, iNewApp);
     //SendMessageToPC(oPC,"s2DA_ACBonus: " + s2DA_ACBonus);
-
-//-- valid pieces check zone vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-
-    int nGender = GetGender(OBJECT_SELF);
-
-  if(iToModify == ITEM_APPR_ARMOR_MODEL_NECK)
-  {//-- check for valid part
-     while(NeckIsInvalid(iNewApp, nGender))
-     {//-- increase
-       iNewApp--;
-       //-- check we didnt hit the end
-       s2DA_ACBonus = GetCachedACBonus(s2DAFile, iNewApp);
-       if (s2DA_ACBonus == "FAIL")
-       {//-- if so, loop back to 1
-          iNewApp = GetCachedLimit(s2DAFile);
-       }
-     }
-  }
-
-
-  if(iToModify == ITEM_APPR_ARMOR_MODEL_TORSO)
-  {//-- check for valid part
-     while(TorsoIsInvalid(iNewApp, nGender))
-     {//-- increase
-       iNewApp--;
-       //-- check we didnt hit the end
-       s2DA_ACBonus = GetCachedACBonus(s2DAFile, iNewApp);
-       if (s2DA_ACBonus == "FAIL")
-       {//-- if so, loop back to 1
-          iNewApp = GetCachedLimit(s2DAFile);
-       }
-     }
-  }
-
-
-
-  if(iToModify == ITEM_APPR_ARMOR_MODEL_BELT)
-  {//-- check for valid part
-     while(BeltIsInvalid(iNewApp, nGender))
-     {//-- increase
-       iNewApp--;
-       //-- check we didnt hit the end
-       s2DA_ACBonus = GetCachedACBonus(s2DAFile, iNewApp);
-       if (s2DA_ACBonus == "FAIL")
-       {//-- if so, loop back to 1
-          iNewApp = GetCachedLimit(s2DAFile);
-       }
-     }
-  }
-
-  if(iToModify == ITEM_APPR_ARMOR_MODEL_PELVIS)
-  {//-- check for valid part
-     while(HipIsInvalid(iNewApp, nGender))
-     {//-- increase
-//--DEBUGGING-----------------------------------
-SendMessageToPC(oPC, "New Appearance: " + IntToString(iNewApp));
-       iNewApp--;
-       //-- check we didnt hit the end
-       s2DA_ACBonus = GetCachedACBonus(s2DAFile, iNewApp);
-       if (s2DA_ACBonus == "FAIL")
-       {//-- if so, loop back to 1
-          iNewApp = GetCachedLimit(s2DAFile);
-       }
-     }
-  }
-
-  if(iToModify == ITEM_APPR_ARMOR_MODEL_ROBE)
-  {//-- check for valid part
-     while(RobeIsInvalid(iNewApp, nGender))
-     {//-- increase
-       iNewApp--;
-       //-- check we didnt hit the end
-       s2DA_ACBonus = GetCachedACBonus(s2DAFile, iNewApp);
-       if (s2DA_ACBonus == "FAIL")
-       {//-- if so, loop back to 1
-          iNewApp = GetCachedLimit(s2DAFile);
-       }
-     }
-  }
-
-//--END restriction list verification section ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
 
     while (s2DA_ACBonus == "SKIP" || s2DA_ACBonus == "FAIL") {
         if (s2DA_ACBonus == "FAIL") {

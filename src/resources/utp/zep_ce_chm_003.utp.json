@@ -88,6 +88,10 @@
       "0": "Halfling Chimney - 3 stack"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

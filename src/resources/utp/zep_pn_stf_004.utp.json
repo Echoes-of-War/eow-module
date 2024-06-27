@@ -88,6 +88,10 @@
       "0": "Starfish - Sunflower Star"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""

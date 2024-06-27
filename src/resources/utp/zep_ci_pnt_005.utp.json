@@ -88,6 +88,10 @@
       "0": "Painting - Large Old Woman w/bonnet"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""
