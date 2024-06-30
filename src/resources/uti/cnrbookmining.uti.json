@@ -1,0 +1,77 @@
+{
+  "__data_type": "UTI ",
+  "AddCost": {
+    "type": "dword",
+    "value": 0
+  },
+  "BaseItem": {
+    "type": "int",
+    "value": 74
+  },
+  "Charges": {
+    "type": "byte",
+    "value": 0
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Cost": {
+    "type": "dword",
+    "value": 1
+  },
+  "DescIdentified": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Basics of Mining\n----------------------------------\n\n1. Ore types - There are 10 common ore types found in Algeron. These are Copper, Tin, Iron, Gold, Platinum, Adamantium, Cobalt, Silver, Titanium and Mithril. Bronze is made by combining Copper and Tin.\n\nIn addition to ore, miners may also mine clay and sand. \n\n2. Mining Equipment - To mine ore, one must use a pickaxe. Pickaxes require the martial weapon feat, so certain non combat classes will have difficulty mining. A shovel is required to mine clay and sand.\n\nPickaxes and Shovels are subject to damage while mining and will eventually break. it is advised to acquire a backup pickaxe and shovel prior to attempting mining.\n\n3. Misc. Infomation - Ocassionally, one might get lucky and chip off a second nugget of ore or find a rare gem or other  item. \n\n4. Related Skills - Smelting, Weapon Crafting, Armor Crafting and Tinkering all use ore, sand and clay byproducts. Please read their respective books for more information about them. "
+    }
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Basics of Mining\n----------------------------------\n\n1. Ore types - There are 10 common ore types found in Algeron. These are Copper, Tin, Iron, Gold, Platinum, Adamantium, Cobalt, Silver, Titanium and Mithril. Bronze is made by combining Copper and Tin.\n\nIn addition to ore, miners may also mine clay and sand. \n\n2. Mining Equipment - To mine ore, one must use a pickaxe. Pickaxes require the martial weapon feat, so certain non combat classes will have difficulty mining. A shovel is required to mine clay and sand.\n\nPickaxes and Shovels are subject to damage while mining and will eventually break. it is advised to acquire a backup pickaxe and shovel prior to attempting mining.\n\n3. Misc. Infomation - Ocassionally, one might get lucky and chip off a second nugget of ore or find a rare gem or other  item. \n\n4. Related Skills - Smelting, Weapon Crafting, Armor Crafting and Tinkering all use ore, sand and clay byproducts. Please read their respective books for more information about them. "
+    }
+  },
+  "Identified": {
+    "type": "byte",
+    "value": 1
+  },
+  "LocalizedName": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Basics of Mining"
+    }
+  },
+  "ModelPart1": {
+    "type": "byte",
+    "value": 1
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 60
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PropertiesList": {
+    "type": "list",
+    "value": []
+  },
+  "StackSize": {
+    "type": "word",
+    "value": 1
+  },
+  "Stolen": {
+    "type": "byte",
+    "value": 0
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "cnrBookMining"
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "cnrbookmining"
+  }
+}

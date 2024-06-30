@@ -1,0 +1,77 @@
+{
+  "__data_type": "UTI ",
+  "AddCost": {
+    "type": "dword",
+    "value": 0
+  },
+  "BaseItem": {
+    "type": "int",
+    "value": 74
+  },
+  "Charges": {
+    "type": "byte",
+    "value": 0
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Cost": {
+    "type": "dword",
+    "value": 1
+  },
+  "DescIdentified": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Basics of Smelting\n----------------------------------\n\n1. Ore types - There are 10 common ore types found in Algeron. These are Copper, Tin, Iron, Gold, Platinum, Adamantium, Cobalt, Silver, Titanium and Mithril. All may be smelted. Bronze is made by combining Copper and Tin.\n\n2. Smelting Equipment - To smelt ore, one must use a smelting tongs. Ore nuggets are inserted into a smelting forge and melted into ingots. \n\n3. Related Skills - Weapon Crafting and Armor Crafting. Please read their respective books for more information about them. "
+    }
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Basics of Smelting\n----------------------------------\n\n1. Ore types - There are 10 common ore types found in Algeron. These are Copper, Tin, Iron, Gold, Platinum, Adamantium, Cobalt, Silver, Titanium and Mithril. All may be smelted. Bronze is made by combining Copper and Tin.\n\n2. Smelting Equipment - To smelt ore, one must use a smelting tongs. Ore nuggets are inserted into a smelting forge and melted into ingots. \n\n3. Related Skills - Weapon Crafting and Armor Crafting. Please read their respective books for more information about them. "
+    }
+  },
+  "Identified": {
+    "type": "byte",
+    "value": 1
+  },
+  "LocalizedName": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Basics of Smelting"
+    }
+  },
+  "ModelPart1": {
+    "type": "byte",
+    "value": 10
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 60
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PropertiesList": {
+    "type": "list",
+    "value": []
+  },
+  "StackSize": {
+    "type": "word",
+    "value": 1
+  },
+  "Stolen": {
+    "type": "byte",
+    "value": 0
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "cnrBookSmelting"
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "cnrbooksmelting"
+  }
+}

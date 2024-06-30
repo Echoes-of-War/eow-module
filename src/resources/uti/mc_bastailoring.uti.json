@@ -1,0 +1,75 @@
+{
+  "__data_type": "UTI ",
+  "AddCost": {
+    "type": "dword",
+    "value": 0
+  },
+  "BaseItem": {
+    "type": "int",
+    "value": 74
+  },
+  "Charges": {
+    "type": "byte",
+    "value": 0
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Cost": {
+    "type": "dword",
+    "value": 1
+  },
+  "DescIdentified": {
+    "type": "cexolocstring",
+    "value": {}
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Basics of Tailoring\n------------------------------------\n\n1) Tailoring involves both the creation of leather and cloth, and the creation of leather and cloth based items, respectively. These items include various armor types, boots, belts, gloves and cloaks. \n\n2) To create cloth the player must harvest cotton. To create leather, the player must obtain animal skins. These can be acquired by hunting the desired animal and skinning it. To skin an animal, the player must equip a Skinning Knife on the animal corpse. \n3) Animal skins come in small, medium and large sizes. To create leather, the skins must first be cured. This process is done at the Curing Tub and uses various ingredients. \n\n4) Leather is created at the Tailors Table and requires a cured hide and tanning oil. Tailors must also possess a Sewing Kit in their inventory in order to use the Tailors Table. \n\n5) To craft leather armor and other pieces of clothing, the player must combine leather or cloth, a pattern and any other required ingredients.\n\n6) To create a pattern, the player must include a Book of Patterns and a piece of cloth. These are also made using the Tailors Table."
+    }
+  },
+  "Identified": {
+    "type": "byte",
+    "value": 1
+  },
+  "LocalizedName": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Basics of Tailoring"
+    }
+  },
+  "ModelPart1": {
+    "type": "byte",
+    "value": 1
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 60
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PropertiesList": {
+    "type": "list",
+    "value": []
+  },
+  "StackSize": {
+    "type": "word",
+    "value": 1
+  },
+  "Stolen": {
+    "type": "byte",
+    "value": 0
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "mc_bastailoring"
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "mc_bastailoring"
+  }
+}

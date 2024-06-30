@@ -1,0 +1,75 @@
+{
+  "__data_type": "UTI ",
+  "AddCost": {
+    "type": "dword",
+    "value": 0
+  },
+  "BaseItem": {
+    "type": "int",
+    "value": 74
+  },
+  "Charges": {
+    "type": "byte",
+    "value": 0
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Cost": {
+    "type": "dword",
+    "value": 1
+  },
+  "DescIdentified": {
+    "type": "cexolocstring",
+    "value": {}
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Basics of Gem Crafting\n-------------------------------------------\n\n1)  The process of working with gems is a very detailed one that involves multiple steps and multiple crafting devices. These are as follows: \n\nGem Deposits:  First you must gather gem minerals from the gem deposits. \n\nGem Cutting Stone: Used to cut gems. \n\nGem Crafters Table: Used to detail cut gems. \n\nMineral Wash: Used to identify the mystery minerals that are found while mining. \n\nJewelers Bench: Used to create rings, scarabs, necklaces and amulets. \n\n2) To begin, the player must locate a gem deposit and successfully dig an uncut gem mineral. The player must have a Gem Chisel equipped in order to mine gem minerals.\n\n3) Once a gem mineral is extracted, it needs to be cut. This is done at the Gem Cutting Stone. The player will need to have a Set of Gem Crafter’s Tools in their inventory. This process will yield either cut gems or flawed gems and gem dust as a bi-product. \n\n4) To detail a cut gem, the player will again need to have a Set of Gem Crafter’s Tools in their inventory. This process is done at the Gem Crafters Table and will yield either fine gems or flawed gems. \n\n5) To create rings, necklaces, scarabs and amulets, the player must use the Jewelers Bench. These items require a mold, enchanted gems and enchanted ingots. \n\n6) Occasionally, players will find mystery minerals while mining. These minerals can be identified by washing them in the Mineral Bath. \n"
+    }
+  },
+  "Identified": {
+    "type": "byte",
+    "value": 1
+  },
+  "LocalizedName": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Basics of Gem Crafting"
+    }
+  },
+  "ModelPart1": {
+    "type": "byte",
+    "value": 1
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 60
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PropertiesList": {
+    "type": "list",
+    "value": []
+  },
+  "StackSize": {
+    "type": "word",
+    "value": 1
+  },
+  "Stolen": {
+    "type": "byte",
+    "value": 0
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "mc_basgemcraft"
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "mc_basgemcraft"
+  }
+}

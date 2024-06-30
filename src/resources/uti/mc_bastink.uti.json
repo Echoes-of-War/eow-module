@@ -1,0 +1,75 @@
+{
+  "__data_type": "UTI ",
+  "AddCost": {
+    "type": "dword",
+    "value": 0
+  },
+  "BaseItem": {
+    "type": "int",
+    "value": 74
+  },
+  "Charges": {
+    "type": "byte",
+    "value": 0
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Cost": {
+    "type": "dword",
+    "value": 1
+  },
+  "DescIdentified": {
+    "type": "cexolocstring",
+    "value": {}
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Basics of Tinkering\n--------------------------------------\n\n1) Tinkering requiresa set of tinkers tools in. Tinkers can make a variety of different items ranging from glass ingots to crafting tools to deadly traps. These items are created at the following crafting devices: \n\nTinkers Device: This strange looking device is used to create arrowheads and misc tinkering items. \n\nTinkers Toolkit: This device is used to create traps and crafting tools. \n\nTinkers Furnace: This device is very similar to the forge, except that it makes molds, glass ingots, and various glass products. \n\n2) Tinkering uses two raw materials that can be mined. These are sand and clay. To mine these, the player must have a Shovel in their inventory. \n\n3) Sand deposits yield bags of sand and clay deposits yield lumps of clay. \n4) Shovels, like the miner’s pickaxes, will wear out from time to time when used. "
+    }
+  },
+  "Identified": {
+    "type": "byte",
+    "value": 1
+  },
+  "LocalizedName": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Basics of Tinkering"
+    }
+  },
+  "ModelPart1": {
+    "type": "byte",
+    "value": 1
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 60
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PropertiesList": {
+    "type": "list",
+    "value": []
+  },
+  "StackSize": {
+    "type": "word",
+    "value": 1
+  },
+  "Stolen": {
+    "type": "byte",
+    "value": 0
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "mc_bastink"
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "mc_bastink"
+  }
+}

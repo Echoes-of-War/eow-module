@@ -1,0 +1,75 @@
+{
+  "__data_type": "UTI ",
+  "AddCost": {
+    "type": "dword",
+    "value": 0
+  },
+  "BaseItem": {
+    "type": "int",
+    "value": 74
+  },
+  "Charges": {
+    "type": "byte",
+    "value": 0
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Cost": {
+    "type": "dword",
+    "value": 1
+  },
+  "DescIdentified": {
+    "type": "cexolocstring",
+    "value": {}
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Basics of Baking\n----------------------------------\n\n1) Baking allows the creation of many  things, such as, bread and pies. \n\n2) Gathered grains can be converted to flours or meals using the Farmer’s mill.\n \n3) Oils can be crafted out of many grains and nuts using the Farmer’s Press.\n\n4) Juices can be crafted out of fruits also by using the Farmer’s Press. \n\n5) Eggs can be gathered from chickens by feeding them either corn grains or corn meal, although they will produce eggs three times faster eating corn meal. \n\n6) Milk can be gathered from cows by feeding them a variety of different grains. Cows prefer some grains above others and will oblige you for your donations by producing milk faster. \n\n7) Flour, eggs, milk, salt, sugar and fruits are typical ingredients used in the bread and pie recipes. These can be crafted by the Baker’s Oven. \n"
+    }
+  },
+  "Identified": {
+    "type": "byte",
+    "value": 1
+  },
+  "LocalizedName": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Basics of Baking"
+    }
+  },
+  "ModelPart1": {
+    "type": "byte",
+    "value": 1
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 60
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PropertiesList": {
+    "type": "list",
+    "value": []
+  },
+  "StackSize": {
+    "type": "word",
+    "value": 1
+  },
+  "Stolen": {
+    "type": "byte",
+    "value": 0
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "mc_basbaking"
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "mc_basbaking"
+  }
+}

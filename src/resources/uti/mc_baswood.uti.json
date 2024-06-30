@@ -1,0 +1,75 @@
+{
+  "__data_type": "UTI ",
+  "AddCost": {
+    "type": "dword",
+    "value": 0
+  },
+  "BaseItem": {
+    "type": "int",
+    "value": 74
+  },
+  "Charges": {
+    "type": "byte",
+    "value": 0
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Cost": {
+    "type": "dword",
+    "value": 1
+  },
+  "DescIdentified": {
+    "type": "cexolocstring",
+    "value": {}
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Basics of Wood Crafting\n---------------------------------------------\n\n1) Wood crafting combines carpentry, bow crafting and fletching. \n\n2) Wood Crafting also involves harvesting wood. This is done by equipping a Woodcutter’s Axe and using it to bash a Hickory Tree, a Mahogany Tree or an Oak Tree. \n\n3) Trees produce branches that can be turned into wood shafts, wood planks and wood staves.\n\n4) To create wood crafting items, the Carpenters Bench must be used while possessing a Set of Carpenter’s Tools. \n"
+    }
+  },
+  "Identified": {
+    "type": "byte",
+    "value": 1
+  },
+  "LocalizedName": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Basics of Wood Crafting"
+    }
+  },
+  "ModelPart1": {
+    "type": "byte",
+    "value": 1
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 60
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PropertiesList": {
+    "type": "list",
+    "value": []
+  },
+  "StackSize": {
+    "type": "word",
+    "value": 1
+  },
+  "Stolen": {
+    "type": "byte",
+    "value": 0
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "mc_baswood"
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "mc_baswood"
+  }
+}

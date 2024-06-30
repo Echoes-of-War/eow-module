@@ -1,0 +1,77 @@
+{
+  "__data_type": "UTI ",
+  "AddCost": {
+    "type": "dword",
+    "value": 0
+  },
+  "BaseItem": {
+    "type": "int",
+    "value": 74
+  },
+  "Charges": {
+    "type": "byte",
+    "value": 0
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Cost": {
+    "type": "dword",
+    "value": 1
+  },
+  "DescIdentified": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Basics of Weapon Crafting\n--------------------------------------------------\n\n1. Weapon types - There are 21 basic weapon types that a crafter can make. These range from a simple Dagger to a Greatsword.\n \n2. Weapon Materials - Weapons can be crafted from Copper, Bronze and Iron. Weapons may also be coated with Silver and Titanium. Silver coated weapons are more effective against undead foes, while Titanium coated weapons do more damage.\n\n3. Weapon Components - Weapons generally require ingots and a casting mold. Casting molds come in small, medium or large sizes. Some weapons also require wood shafts. \n\n4. Crafting Weapons - To craft a weapon, one must equip a smiths hammer, posses the required raw materials and use a weapon crafting anvil. \n\n5. Misc. Information - Weapons that require 2 or more ingots to craft may be smelted. Smelted weapons generally yield one less ingot than what was originally required. \n\n6. Related Skills - Smelting, Tinkering, Wood Crafting and Enchanting. Please read their respective books for more information about them. "
+    }
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Basics of Weapon Crafting\n--------------------------------------------------\n\n1. Weapon types - There are 21 basic weapon types that a crafter can make. These range from a simple Dagger to a Greatsword.\n \n2. Weapon Materials - Weapons can be crafted from Copper, Bronze and Iron. Weapons may also be coated with Silver and Titanium. Silver coated weapons are more effective against undead foes, while Titanium coated weapons do more damage.\n\n3. Weapon Components - Weapons generally require ingots and a casting mold. Casting molds come in small, medium or large sizes. Some weapons also require wood shafts. \n\n4. Crafting Weapons - To craft a weapon, one must equip a smiths hammer, posses the required raw materials and use a weapon crafting anvil. \n\n5. Misc. Information - Weapons that require 2 or more ingots to craft may be smelted. Smelted weapons generally yield one less ingot than what was originally required. \n\n6. Related Skills - Smelting, Tinkering, Wood Crafting and Enchanting. Please read their respective books for more information about them. "
+    }
+  },
+  "Identified": {
+    "type": "byte",
+    "value": 1
+  },
+  "LocalizedName": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Basics of Weapon Crafting"
+    }
+  },
+  "ModelPart1": {
+    "type": "byte",
+    "value": 10
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 60
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PropertiesList": {
+    "type": "list",
+    "value": []
+  },
+  "StackSize": {
+    "type": "word",
+    "value": 1
+  },
+  "Stolen": {
+    "type": "byte",
+    "value": 0
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "cnrBookWeapons"
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "cnrbookweapons"
+  }
+}

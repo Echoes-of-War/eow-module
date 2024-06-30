@@ -2,7 +2,7 @@
   "__data_type": "UTC ",
   "Appearance_Head": {
     "type": "byte",
-    "value": 1
+    "value": 28
   },
   "Appearance_Type": {
     "type": "word",
@@ -110,11 +110,11 @@
   },
   "Color_Hair": {
     "type": "byte",
-    "value": 1
+    "value": 15
   },
   "Color_Skin": {
     "type": "byte",
-    "value": 1
+    "value": 2
   },
   "Color_Tattoo1": {
     "type": "byte",
@@ -759,7 +759,7 @@
   },
   "xAppearance_Head": {
     "type": "word",
-    "value": 1
+    "value": 28
   },
   "xArmorPart_RFoot": {
     "type": "word",

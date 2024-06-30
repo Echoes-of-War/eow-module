@@ -1,0 +1,75 @@
+{
+  "__data_type": "UTI ",
+  "AddCost": {
+    "type": "dword",
+    "value": 0
+  },
+  "BaseItem": {
+    "type": "int",
+    "value": 74
+  },
+  "Charges": {
+    "type": "byte",
+    "value": 0
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Cost": {
+    "type": "dword",
+    "value": 1
+  },
+  "DescIdentified": {
+    "type": "cexolocstring",
+    "value": {}
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Basics of Brewing\n-----------------------------------\n\n1) Brewing beer, wine and liquor begins with the gathering of wheat grains. Corn, barley, wheat, rice, rye and oat grains. \n\n2) Grains must be roasted to bring out their flavor using the Brewer's Oven. \n\n3) The Farmer’s Mill is then used to crack the roasted grains to produce malted gain.\n\n4) Malted grain can then be combined with other natural resources and cooked to make wort using the Brewer’s Kettle.\n\n5) Finally, the wort and sugar are combined with water and bottles in the Brewer’s Keg."
+    }
+  },
+  "Identified": {
+    "type": "byte",
+    "value": 1
+  },
+  "LocalizedName": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Basics of Brewing"
+    }
+  },
+  "ModelPart1": {
+    "type": "byte",
+    "value": 1
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 60
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PropertiesList": {
+    "type": "list",
+    "value": []
+  },
+  "StackSize": {
+    "type": "word",
+    "value": 1
+  },
+  "Stolen": {
+    "type": "byte",
+    "value": 0
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "mc_basbrew"
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "mc_basbrew"
+  }
+}

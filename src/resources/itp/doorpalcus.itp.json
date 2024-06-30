@@ -143,22 +143,22 @@
                     "__struct_id": 0,
                     "NAME": {
                       "type": "cexostring",
-                      "value": "Basic Wood Town Door"
+                      "value": "Basic Rounded Town Door"
                     },
                     "RESREF": {
                       "type": "resref",
-                      "value": "eow_bwooddoor"
+                      "value": "eow_bwooddr2"
                     }
                   },
                   {
                     "__struct_id": 0,
                     "NAME": {
                       "type": "cexostring",
-                      "value": "Rounded Door"
+                      "value": "Basic Town Door"
                     },
                     "RESREF": {
                       "type": "resref",
-                      "value": "eow_bwooddr2"
+                      "value": "eow_bwooddoor"
                     }
                   }
                 ]

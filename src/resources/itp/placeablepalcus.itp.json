@@ -1565,6 +1565,17 @@
                 "value": [
                   {
                     "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corpse Bones"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcorpsebones"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
                     "RESREF": {
                       "type": "resref",
                       "value": "zep_katnadnsu001"
@@ -1649,6 +1660,17 @@
                     "RESREF": {
                       "type": "resref",
                       "value": "zep_bf_mark_003"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Skinnable Corpse"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcorpseskin"
                     }
                   },
                   {
@@ -17689,6 +17711,28 @@
                 "type": "resref",
                 "value": "saddlebag"
               }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Small Bench"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "eow_smlbench"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Trade Lever"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cnrtradelever"
+              }
             }
           ]
         },
@@ -20692,6 +20736,17 @@
               "__struct_id": 0,
               "NAME": {
                 "type": "cexostring",
+                "value": "CNR Object Spawner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cnrobjectspawner"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
                 "value": "Etheroscope"
               },
               "RESREF": {
@@ -20954,6 +21009,28 @@
             },
             {
               "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Pile of Dirt"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cnrpileofdirt"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Pile of Salt"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cnrpileofsalt"
+              }
+            },
+            {
+              "__struct_id": 0,
               "RESREF": {
                 "type": "resref",
                 "value": "zep_crystal003"
@@ -20961,6 +21038,28 @@
               "STRREF": {
                 "type": "dword",
                 "value": 16812598
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Sacks of Salt"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cnrsacksofsalt"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Sacks of Sugar"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cnrsacksofsugar"
               }
             },
             {
@@ -20994,6 +21093,17 @@
               "RESREF": {
                 "type": "resref",
                 "value": "codismallcage"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Spider Cocoon"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cnrcocoon"
               }
             },
             {
@@ -21311,6 +21421,215 @@
                     "__struct_id": 0,
                     "NAME": {
                       "type": "cexostring",
+                      "value": "Almond Tree"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnralmondplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Aloe Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnraloeplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Angelica Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrangelicaplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Apple Tree"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrappleplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Barley Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrbarleyplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Bee Nest"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrbeenest"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Beehive"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrbeehive"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Birch Tree"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrbirchplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Black Cohosh Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrbkcohoshplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Blackberry Bush"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrblkberryplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Blueberry Bush"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrbluberryplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Calendula Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcalendulaplan"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Catnip Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcatnipplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Chamomile Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrchamomileplan"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Cherry Tree"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcherryplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Chestnut Tree"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrchestnutplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Choppable Tree - Hickory"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrtreehickory"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Choppable Tree - Mahogany"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrtreemahogany"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Choppable Tree - Oak"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrtreeoak"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
                       "value": "Cliff TNO end 1"
                     },
                     "RESREF": {
@@ -21333,11 +21652,99 @@
                     "__struct_id": 0,
                     "NAME": {
                       "type": "cexostring",
+                      "value": "Clover Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcoverplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Comfrey Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcomfreyplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corn Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcornplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Cotton plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcottonplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Cranberry Bush"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcrnberryplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
                       "value": "Deepmist Clam"
                     },
                     "RESREF": {
                       "type": "resref",
                       "value": "zep_pn_shl_001"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Deposit of Clay"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrdepositclay"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Deposit of Coal"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrdepositcoal"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Deposit of Sand"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrdepositsand"
                     }
                   },
                   {
@@ -21371,6 +21778,28 @@
                     "STRREF": {
                       "type": "dword",
                       "value": 16811660
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Echinacea Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrechinaceaplan"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Elderberry Bush"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnreldberryplant"
                     }
                   },
                   {
@@ -21597,6 +22026,83 @@
                     "__struct_id": 0,
                     "NAME": {
                       "type": "cexostring",
+                      "value": "Garlic Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgarlicplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Ginger Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgingerplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Ginseng Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrginsengplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Grape Vine"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgrapeplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Hawthorn Tree"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrhawthornplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Hazelnut Tree"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrhazelnutplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Hops plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrhopsplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
                       "value": "Invisible Ground 4x4"
                     },
                     "RESREF": {
@@ -21608,11 +22114,451 @@
                     "__struct_id": 0,
                     "NAME": {
                       "type": "cexostring",
+                      "value": "Juniper Bush"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrjuniperplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Maple Tree"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrmapleplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Minable Rock - Adamantium"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrrockadam"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Minable Rock - Cobalt"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrrockcoba"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Minable Rock - Copper"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrrockcopp"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Minable Rock - Gold"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrrockgold"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Minable Rock - Iron"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrrockiron"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Minable Rock - Mithril"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrrockmith"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Minable Rock - Platinum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrrockplat"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Minable Rock - Silver"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrrocksilv"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Minable Rock - Tin"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrrocktin"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Minable Rock - Titanium"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrrocktita"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Alexandrite"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit013"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Amethyst"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit003"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Aventurine"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit014"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Diamond"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit005"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Emerald"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit012"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Feldspar"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit015"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Fire Agate"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit002"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Fire Opal"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit009"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Garnet"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit011"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Greenstone"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit001"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Malachite"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit007"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Phenalope"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit004"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Ruby"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit006"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Sapphire"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit008"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Deposit - Topaz"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemdeposit010"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Nettle Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrnettleplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Oat Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnroatsplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Patch of Black Mushrooms"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrpatchmushblk"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Patch of Purple Mushrooms"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrpatchmushpurp"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Patch of Red Mushrooms"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrpatchmushred"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Patch of Spotted Mushrooms"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrpatchmushspot"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Patch of White Mushrooms"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrpatchmushwht"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Patch of Yellow Mushrooms"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrpatchmushyel"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Pear Tree"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrpearplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Pecan Tree"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrpecanplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Peppermint Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrpepmintplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
                       "value": "Rainbow"
                     },
                     "RESREF": {
                       "type": "resref",
                       "value": "zep_pn_rbw_001"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Raspberry Bush"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrrspberryplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Rice Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrriceplant"
                     }
                   },
                   {
@@ -21635,6 +22581,28 @@
                     "RESREF": {
                       "type": "resref",
                       "value": "zep_tno_rockldg2"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Rye Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrryeplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Sage Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrsageplant"
                     }
                   },
                   {
@@ -21740,6 +22708,17 @@
                     "__struct_id": 0,
                     "NAME": {
                       "type": "cexostring",
+                      "value": "Skullcap Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrskullcapplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
                       "value": "Starfish - Blue Star"
                     },
                     "RESREF": {
@@ -21778,6 +22757,50 @@
                     "RESREF": {
                       "type": "resref",
                       "value": "zep_pn_stf_004"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Thistle Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrthistleplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Walnut Tree"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrwalnutplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wheat Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrwheatplant"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Witch Hazel Plant"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrhazelplant"
                     }
                   },
                   {
@@ -23149,6 +24172,50 @@
                           "STRREF": {
                             "type": "dword",
                             "value": 16813524
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Witcher Flower Pink"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "eow_witflowpnk"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Witcher Flower Yellow"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "eow_witflowyello"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Witcher Red Rose Bush"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "eow_witrosered"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Witcher Yellow Rose Bush"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "eow_witroseyel"
                           }
                         }
                       ]
@@ -31313,6 +32380,94 @@
                 "value": [
                   {
                     "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Alchemist's Table"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnralchemytable"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Armor Crafting Anvil"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnranvilarmor"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Baker's Oven"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrbakersoven"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Brazier for Silver-Coating"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrbraziersilv"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Brazier for Titanium-Tipping"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrbraziertita"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Brewer's Keg"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrbrewerskeg"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Brewer's Kettle"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrbrewerskettle"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Brewer's Oven"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrbrewersoven"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
                     "RESREF": {
                       "type": "resref",
                       "value": "zep_broom"
@@ -31346,6 +32501,171 @@
                   },
                   {
                     "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Carpenter's Bench"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcarpsbench"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Curing Tub"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcuringtub"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Enchanting Altar"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrenchantaltar"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Enchanting Pool"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrenchantpool"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Enchanting Statue"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrenchantstatue"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Farmer's Mill"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrfarmersmill"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Farmer's Press"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrfarmerspress"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gem Cutting Stone"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemstone"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gem Detailing Table"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrgemtable"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Hide Rack"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrhiderack"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Holy Pool "
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrpoolbless"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Ingot Recycler"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnringotrecycler"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Jeweler's Bench"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrjewelersbench"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mineral Bath"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrmineralbath"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Public Forge"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrforgepublic"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
                     "RESREF": {
                       "type": "resref",
                       "value": "zep_ropebndle001"
@@ -31353,6 +32673,127 @@
                     "STRREF": {
                       "type": "dword",
                       "value": 16812670
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Scribing Ink Desk"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrscribeinkdesk"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Scribing Station - Average"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrscribeaverage"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Scribing Station - Greater"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrscribegreater"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Scribing Station - Lesser"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrscribelesser"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Tailor's Table"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrtailorstable"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Tinker's Device"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrtinkersdevice"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Tinker's Furnace"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrtinkerfurnace"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Tinker's Toolbox"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrtinkertoolbox"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Trash Barrel"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrtrashbarrel"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Water Tub"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrwatertub"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Weapon Crafting Anvil"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnranvilpublic"
                     }
                   }
                 ]

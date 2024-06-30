@@ -1,0 +1,75 @@
+{
+  "__data_type": "UTI ",
+  "AddCost": {
+    "type": "dword",
+    "value": 0
+  },
+  "BaseItem": {
+    "type": "int",
+    "value": 74
+  },
+  "Charges": {
+    "type": "byte",
+    "value": 0
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Cost": {
+    "type": "dword",
+    "value": 1
+  },
+  "DescIdentified": {
+    "type": "cexolocstring",
+    "value": {}
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Cloth: 2 cotton\n\nPadding: 1 cloth and 2 cotton\n\nPatterns: 1 Book of Patterns and 1 cloth\n\nHides: 1 animal skin, 1 curing salt,  and 1 tanning acid \n\nLeathers: 1 cured animal hide and 1 tanning oil\n\nLight Bow String: 2 spider silk and 2 almond oil\n\nSling: 1 bat leather and 1 pattern\n\nBelt: 1 badger leather and 1 belt pattern\n\nGloves: 2 rat leather and 1 glove pattern\n\nBoots: 2 deer leather and 1 boot pattern\n\nCloak: 2 cloth and 1 cloak pattern\n"
+    }
+  },
+  "Identified": {
+    "type": "byte",
+    "value": 1
+  },
+  "LocalizedName": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "The Initiate's Guide to Tailored Base Items"
+    }
+  },
+  "ModelPart1": {
+    "type": "byte",
+    "value": 1
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 60
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PropertiesList": {
+    "type": "list",
+    "value": []
+  },
+  "StackSize": {
+    "type": "word",
+    "value": 1
+  },
+  "Stolen": {
+    "type": "byte",
+    "value": 0
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "mc_basetailor"
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "mc_basetailor"
+  }
+}
