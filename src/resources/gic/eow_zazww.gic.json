@@ -8677,13 +8677,6 @@
         "__struct_id": 9,
         "Comment": {
           "type": "cexostring",
-          "value": ""
-        }
-      },
-      {
-        "__struct_id": 9,
-        "Comment": {
-          "type": "cexostring",
           "value": "Invisible Object"
         }
       },
@@ -8727,6 +8720,27 @@
         "Comment": {
           "type": "cexostring",
           "value": "Source: LOKPak v3 by Danmar\r\n Modified by SBird for CEP"
+        }
+      },
+      {
+        "__struct_id": 9,
+        "Comment": {
+          "type": "cexostring",
+          "value": "Source: Extra Debris Pack 1 by Brother Roth"
+        }
+      },
+      {
+        "__struct_id": 9,
+        "Comment": {
+          "type": "cexostring",
+          "value": "Source: Extra Debris Pack 1 by Brother Roth"
+        }
+      },
+      {
+        "__struct_id": 9,
+        "Comment": {
+          "type": "cexostring",
+          "value": "Source: Extra Debris Pack 1 by Brother Roth"
         }
       }
     ]

@@ -12473,6 +12473,17 @@
                     "__struct_id": 0,
                     "NAME": {
                       "type": "cexostring",
+                      "value": "Charcoal"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnrcharcoal"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
                       "value": "Compound Bow Cam"
                     },
                     "RESREF": {
@@ -13105,6 +13116,17 @@
                     "RESREF": {
                       "type": "resref",
                       "value": "cnringotsilv"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Ingot of Steel"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "cnringotsteel"
                     }
                   },
                   {

@@ -1,0 +1,494 @@
+{
+  "__data_type": "UTC ",
+  "Appearance_Type": {
+    "type": "word",
+    "value": 1009
+  },
+  "BodyBag": {
+    "type": "byte",
+    "value": 0
+  },
+  "Cha": {
+    "type": "byte",
+    "value": 13
+  },
+  "ChallengeRating": {
+    "type": "float",
+    "value": 2.0
+  },
+  "ClassList": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 2,
+        "Class": {
+          "type": "int",
+          "value": 24
+        },
+        "ClassLevel": {
+          "type": "short",
+          "value": 1
+        }
+      }
+    ]
+  },
+  "Comment": {
+    "type": "cexostring",
+    "value": "Dabus (both singular and plural) are the caretakers of Sigil, the dabus are responsible for maintaining the city and the mysterious mechanisms that empower it. They repair buildings, trim razorvine, and often serve as basic judges in City Hall.\r\n\r\nDabus are tall creatures with two sets of horns (one set straight, one set that curves backwards slightly), and usually a mop of white hair that stands upright. They float off the ground by a few inches and do not speak - at least not verbally. Instead they communicate by rebus, which often leads to confusion when dealing with them. They generally dress in robes, and go about their business showing little interest in others. Some, called illusion masters, are powerful sorcerers.\r\n\r\nDabus are protected by the Lady of Pain, and those who harm or kill a dabus are often mazed or flayed. In general, residents of Sigil don't care to take the risk and will leave a dabus alone so it may continue to do its business tending to the city. Dabus are never seen outside of Sigil, and there are rumors that say they may not be capable of surviving outside of it.\r\n\r\nIt is unknown where the dabus sleep, though presumed that they do so in a dabus warren somewhere beneath the Sigil streets. No one has successfully followed a dabus to the warren. The dabus life cycle has never been observed, nor have any children, or elderly of the species been seen.\r\n\r\nThe most unusual dabus in Sigil is Fell. He is the only dabus who walks on the ground; as far as anyone knows, this is because he is out of favor with the Lady."
+  },
+  "Con": {
+    "type": "byte",
+    "value": 15
+  },
+  "Conversation": {
+    "type": "resref",
+    "value": ""
+  },
+  "CRAdjust": {
+    "type": "int",
+    "value": 0
+  },
+  "CurrentHitPoints": {
+    "type": "short",
+    "value": 24
+  },
+  "DecayTime": {
+    "type": "dword",
+    "value": 5000
+  },
+  "Deity": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "This particular dabus seems to have been cast down from whatever floating organization his kin belongs to. Despite the loss of his social benefits he still manages to walk around with some dignity in that burgundy robe of his."
+    }
+  },
+  "Dex": {
+    "type": "byte",
+    "value": 12
+  },
+  "Disarmable": {
+    "type": "byte",
+    "value": 1
+  },
+  "Equip_ItemList": {
+    "type": "list",
+    "value": []
+  },
+  "FactionID": {
+    "type": "word",
+    "value": 2
+  },
+  "FeatList": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 1,
+        "Feat": {
+          "type": "word",
+          "value": 228
+        }
+      }
+    ]
+  },
+  "FirstName": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Fell"
+    }
+  },
+  "fortbonus": {
+    "type": "short",
+    "value": 2
+  },
+  "Gender": {
+    "type": "byte",
+    "value": 3
+  },
+  "GoodEvil": {
+    "type": "byte",
+    "value": 50
+  },
+  "HitPoints": {
+    "type": "short",
+    "value": 24
+  },
+  "Int": {
+    "type": "byte",
+    "value": 14
+  },
+  "Interruptable": {
+    "type": "byte",
+    "value": 1
+  },
+  "IsImmortal": {
+    "type": "byte",
+    "value": 0
+  },
+  "IsPC": {
+    "type": "byte",
+    "value": 0
+  },
+  "LastName": {
+    "type": "cexolocstring",
+    "value": {
+      "0": ""
+    }
+  },
+  "LawfulChaotic": {
+    "type": "byte",
+    "value": 50
+  },
+  "Lootable": {
+    "type": "byte",
+    "value": 0
+  },
+  "MaxHitPoints": {
+    "type": "short",
+    "value": 26
+  },
+  "NaturalAC": {
+    "type": "byte",
+    "value": 2
+  },
+  "NoPermDeath": {
+    "type": "byte",
+    "value": 0
+  },
+  "PaletteID": {
+    "type": "byte",
+    "value": 45
+  },
+  "PerceptionRange": {
+    "type": "byte",
+    "value": 11
+  },
+  "Phenotype": {
+    "type": "int",
+    "value": 0
+  },
+  "Plot": {
+    "type": "byte",
+    "value": 0
+  },
+  "PortraitId": {
+    "type": "word",
+    "value": 3054
+  },
+  "Race": {
+    "type": "byte",
+    "value": 20
+  },
+  "refbonus": {
+    "type": "short",
+    "value": 2
+  },
+  "ScriptAttacked": {
+    "type": "resref",
+    "value": "x2_def_attacked"
+  },
+  "ScriptDamaged": {
+    "type": "resref",
+    "value": "x2_def_ondamage"
+  },
+  "ScriptDeath": {
+    "type": "resref",
+    "value": "x2_def_ondeath"
+  },
+  "ScriptDialogue": {
+    "type": "resref",
+    "value": "x2_def_onconv"
+  },
+  "ScriptDisturbed": {
+    "type": "resref",
+    "value": "x2_def_ondisturb"
+  },
+  "ScriptEndRound": {
+    "type": "resref",
+    "value": "x2_def_endcombat"
+  },
+  "ScriptHeartbeat": {
+    "type": "resref",
+    "value": "x2_def_heartbeat"
+  },
+  "ScriptOnBlocked": {
+    "type": "resref",
+    "value": "x2_def_onblocked"
+  },
+  "ScriptOnNotice": {
+    "type": "resref",
+    "value": "x2_def_percept"
+  },
+  "ScriptRested": {
+    "type": "resref",
+    "value": "x2_def_rested"
+  },
+  "ScriptSpawn": {
+    "type": "resref",
+    "value": "x2_def_spawn"
+  },
+  "ScriptSpellAt": {
+    "type": "resref",
+    "value": "x2_def_spellcast"
+  },
+  "ScriptUserDefine": {
+    "type": "resref",
+    "value": "x2_def_userdef"
+  },
+  "SkillList": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 7
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 7
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 4
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 7
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 7
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 4
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 7
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 7
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 4
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 8
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Rank": {
+          "type": "byte",
+          "value": 0
+        }
+      }
+    ]
+  },
+  "SoundSetFile": {
+    "type": "word",
+    "value": 263
+  },
+  "SpecAbilityList": {
+    "type": "list",
+    "value": []
+  },
+  "StartingPackage": {
+    "type": "byte",
+    "value": 86
+  },
+  "Str": {
+    "type": "byte",
+    "value": 13
+  },
+  "Subrace": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Tag": {
+    "type": "cexostring",
+    "value": "Q1_FELL"
+  },
+  "Tail_New": {
+    "type": "dword",
+    "value": 0
+  },
+  "TemplateList": {
+    "type": "list",
+    "value": []
+  },
+  "TemplateResRef": {
+    "type": "resref",
+    "value": "q1_fell"
+  },
+  "WalkRate": {
+    "type": "int",
+    "value": 7
+  },
+  "willbonus": {
+    "type": "short",
+    "value": 2
+  },
+  "Wings_New": {
+    "type": "dword",
+    "value": 0
+  },
+  "Wis": {
+    "type": "byte",
+    "value": 15
+  }
+}

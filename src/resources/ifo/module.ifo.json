@@ -11,34 +11,6 @@
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "eow_shtownsquare"
-        }
-      },
-      {
-        "__struct_id": 6,
-        "Area_Name": {
-          "type": "resref",
-          "value": "eow_shmaingate"
-        }
-      },
-      {
-        "__struct_id": 6,
-        "Area_Name": {
-          "type": "resref",
-          "value": "eow_shwiltcourt"
-        }
-      },
-      {
-        "__struct_id": 6,
-        "Area_Name": {
-          "type": "resref",
-          "value": "eow_shriverport"
-        }
-      },
-      {
-        "__struct_id": 6,
-        "Area_Name": {
-          "type": "resref",
           "value": "01devstorage"
         }
       },
@@ -67,7 +39,7 @@
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "area001"
+          "value": "area002"
         }
       }
     ]
@@ -104,27 +76,27 @@
   },
   "Mod_Entry_Area": {
     "type": "resref",
-    "value": "eow_zazww"
+    "value": "area002"
   },
   "Mod_Entry_Dir_X": {
     "type": "float",
-    "value": -0.07356492429971695
+    "value": 0.0
   },
   "Mod_Entry_Dir_Y": {
     "type": "float",
-    "value": -0.9972904324531555
+    "value": 1.0
   },
   "Mod_Entry_X": {
     "type": "float",
-    "value": 104.0
+    "value": 39.94926452636719
   },
   "Mod_Entry_Y": {
     "type": "float",
-    "value": 127.0
+    "value": 40.04398345947266
   },
   "Mod_Entry_Z": {
     "type": "float",
-    "value": 4.0
+    "value": 1.192092895507813e-007
   },
   "Mod_Expan_List": {
     "type": "list",
@@ -370,11 +342,11 @@
   },
   "Mod_OnActvtItem": {
     "type": "resref",
-    "value": "x2_mod_def_act"
+    "value": "eow_onact"
   },
   "Mod_OnClientEntr": {
     "type": "resref",
-    "value": "dmfi_onclienter"
+    "value": "eow_oce"
   },
   "Mod_OnClientLeav": {
     "type": "resref",
@@ -390,7 +362,7 @@
   },
   "Mod_OnModLoad": {
     "type": "resref",
-    "value": "x2_mod_def_load"
+    "value": "eow_oml"
   },
   "Mod_OnModStart": {
     "type": "resref",
@@ -446,7 +418,7 @@
   },
   "Mod_OnUnAqreItem": {
     "type": "resref",
-    "value": "x2_mod_def_unaqu"
+    "value": "eow_unaqu"
   },
   "Mod_OnUsrDefined": {
     "type": "resref",
