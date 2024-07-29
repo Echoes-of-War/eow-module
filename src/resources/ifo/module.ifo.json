@@ -374,7 +374,7 @@
   },
   "Mod_OnPlrChat": {
     "type": "resref",
-    "value": "dmfi_onplychat"
+    "value": "eow_onplychat"
   },
   "Mod_OnPlrDeath": {
     "type": "resref",
