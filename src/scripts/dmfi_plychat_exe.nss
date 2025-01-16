@@ -1219,6 +1219,91 @@ string ProcessDrow(string sPhrase)
 
 
 ////////////////////////////////////////////////////////////////////////
+string ConvertLeetspeak(string sLetter)
+{
+    if (GetStringLength(sLetter) > 1)
+        sLetter = GetStringLeft(sLetter, 1);
+    string sTranslate = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    int iTrans = FindSubString(sTranslate, sLetter);
+
+    switch (iTrans)
+    {
+    case 0: return "4";
+    case 26: return "4";
+    case 1: return "8";
+    case 27: return "8";
+    case 2: return "(";
+    case 28: return "(";
+    case 3: return "|)";
+    case 29: return "|)";
+    case 4: return "3";
+    case 30: return "3";
+    case 5: return "f";
+    case 31: return "F";
+    case 6: return "9";
+    case 32: return "9";
+    case 7: return "h";
+    case 33: return "H";
+    case 8: return "!";
+    case 34: return "!";
+    case 9: return "j";
+    case 35: return "J";
+    case 10: return "|<";
+    case 36: return "|<";
+    case 11: return "1";
+    case 37: return "1";
+    case 12: return "/\/\";
+    case 38: return "/\/\";
+    case 13: return "|\|";
+    case 39: return "|\|";
+    case 14: return "0";
+    case 40: return "0";
+    case 15: return "p";
+    case 41: return "P";
+    case 16: return "Q";
+    case 42: return "Q";
+    case 17: return "R";
+    case 43: return "R";
+    case 18: return "5";
+    case 44: return "5";
+    case 19: return "7";
+    case 45: return "7";
+    case 20: return "u";
+    case 46: return "U";
+    case 21: return "\/";
+    case 47: return "\/";
+    case 22: return "\/\/";
+    case 48: return "\/\/";
+    case 23: return "x";
+    case 49: return "X";
+    case 24: return "y";
+    case 50: return "Y";
+    case 25: return "2";
+    case 51: return "2";
+    default: return sLetter;
+    }
+    return "";
+}//end ConvertLeetspeak
+
+////////////////////////////////////////////////////////////////////////
+string ProcessLeetspeak(string sPhrase)
+{
+    string sOutput;
+    int iToggle;
+    while (GetStringLength(sPhrase) > 1)
+    {
+        if (GetStringLeft(sPhrase,1) == "*")
+            iToggle = abs(iToggle - 1);
+        if (iToggle)
+            sOutput = sOutput + GetStringLeft(sPhrase,1);
+        else
+            sOutput = sOutput + ConvertLeetspeak(GetStringLeft(sPhrase, 1));
+        sPhrase = GetStringRight(sPhrase, GetStringLength(sPhrase)-1);
+    }
+    return sOutput;
+}
+
+////////////////////////////////////////////////////////////////////////
 string ConvertInfernal(string sLetter)
 {
     if (GetStringLength(sLetter) > 1)
@@ -2476,6 +2561,8 @@ string TranslateCommonToLanguage(int iLang, string sText)
         return ProcessRashemi(sText); break;
     case 16: // Mulhorandi
         return ProcessMulhorandi(sText); break;
+    case 99: //1337
+        return ProcessLeetspeak(sText); break;
     default: if (iLang > 100) return ProcessCustom(sText, iLang - 100);break;
     }
     return "";

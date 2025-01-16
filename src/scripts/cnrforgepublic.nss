@@ -48,13 +48,6 @@ void main()
   CnrRecipeSetRecipeXP(sKeyToRecipe, 30, 30);
   CnrRecipeSetRecipeAbilityPercentages(sKeyToRecipe, 25, 75, 0, 0, 0, 0);
 
-  sKeyToRecipe = CnrRecipeCreateRecipe("cnrForgePublic", "Steel Ingot(s)", "cnrIngotSteel", 1);
-  CnrRecipeAddComponent(sKeyToRecipe, "cnrNuggetIron", 1);
-  CnrRecipeAddComponent(sKeyToRecipe, "cnrCharcoal", 1);
-  CnrRecipeSetRecipeLevel(sKeyToRecipe, 4);
-  CnrRecipeSetRecipeXP(sKeyToRecipe, 40, 40);
-  CnrRecipeSetRecipeAbilityPercentages(sKeyToRecipe, 25, 75, 0, 0, 0, 0);
-
   sKeyToRecipe = CnrRecipeCreateRecipe("cnrForgePublic", "Gold Ingot(s)", "cnrIngotGold", 1);
   CnrRecipeAddComponent(sKeyToRecipe, "cnrNuggetGold", 2, 1);
   CnrRecipeSetRecipeLevel(sKeyToRecipe, 5);

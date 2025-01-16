@@ -11,35 +11,49 @@
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "01devstorage"
+          "value": "tt_north"
         }
       },
       {
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "dmfi_custom_enc"
+          "value": "tt_central"
         }
       },
       {
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "eow_zazww"
+          "value": "tt_east"
         }
       },
       {
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "eow_zazcarpet"
+          "value": "tt_west"
         }
       },
       {
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "area002"
+          "value": "tt_south"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "_closure"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "_permadeath"
         }
       }
     ]
@@ -50,7 +64,7 @@
   },
   "Mod_CustomTlk": {
     "type": "cexostring",
-    "value": "eow1"
+    "value": ""
   },
   "Mod_CutSceneList": {
     "type": "list",
@@ -66,9 +80,7 @@
   },
   "Mod_Description": {
     "type": "cexolocstring",
-    "value": {
-      "0": ""
-    }
+    "value": {}
   },
   "Mod_DuskHour": {
     "type": "byte",
@@ -76,7 +88,7 @@
   },
   "Mod_Entry_Area": {
     "type": "resref",
-    "value": "area002"
+    "value": "tt_central"
   },
   "Mod_Entry_Dir_X": {
     "type": "float",
@@ -88,15 +100,15 @@
   },
   "Mod_Entry_X": {
     "type": "float",
-    "value": 39.94926452636719
+    "value": 20.0
   },
   "Mod_Entry_Y": {
     "type": "float",
-    "value": 40.04398345947266
+    "value": 19.0
   },
   "Mod_Entry_Z": {
     "type": "float",
-    "value": 1.192092895507813e-007
+    "value": 0.0
   },
   "Mod_Expan_List": {
     "type": "list",
@@ -108,215 +120,11 @@
   },
   "Mod_HakList": {
     "type": "list",
-    "value": [
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_doors"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_ee"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_feats"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_loads"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_phenos1"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_phenos2"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_phenos3"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_phenos4"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_reforge"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_skies"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_ext_tilesee"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_ext_tiles"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_tiles1"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_tiles2"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_tiles3"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_tiles4"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "eow_tileset_v1"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "eow_top_v2"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "eow_equipment_v1"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_top_2_71"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_core0"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_core1"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_core2"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_core3"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_core4"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_core5"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_core6"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_core7"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "cep2_add_sb_v1"
-        }
-      }
-    ]
+    "value": []
   },
   "Mod_ID": {
     "type": "void",
-    "value64": "HtadIWWFrOo6P39xjVhyxQ=="
+    "value64": "W5BPIlPRrupiYibv7eWyrw=="
   },
   "Mod_IsSaveGame": {
     "type": "byte",
@@ -328,25 +136,25 @@
   },
   "Mod_MinPerHour": {
     "type": "byte",
-    "value": 30
+    "value": 2
   },
   "Mod_Name": {
     "type": "cexolocstring",
     "value": {
-      "0": "Echoes of War Ch.1"
+      "0": "EoW_Test_v01"
     }
   },
   "Mod_OnAcquirItem": {
     "type": "resref",
-    "value": "x2_mod_def_aqu"
+    "value": ""
   },
   "Mod_OnActvtItem": {
     "type": "resref",
-    "value": "eow_onact"
+    "value": "_m_activate"
   },
   "Mod_OnClientEntr": {
     "type": "resref",
-    "value": "eow_oce"
+    "value": "_m_enter"
   },
   "Mod_OnClientLeav": {
     "type": "resref",
@@ -362,7 +170,7 @@
   },
   "Mod_OnModLoad": {
     "type": "resref",
-    "value": "eow_oml"
+    "value": "_m_load"
   },
   "Mod_OnModStart": {
     "type": "resref",
@@ -374,19 +182,19 @@
   },
   "Mod_OnPlrChat": {
     "type": "resref",
-    "value": "eow_onplychat"
+    "value": "_m_chat"
   },
   "Mod_OnPlrDeath": {
     "type": "resref",
-    "value": "nw_o0_death"
+    "value": "_m_death"
   },
   "Mod_OnPlrDying": {
     "type": "resref",
-    "value": "nw_o0_dying"
+    "value": "_m_dying"
   },
   "Mod_OnPlrEqItm": {
     "type": "resref",
-    "value": "x2_mod_def_equ"
+    "value": ""
   },
   "Mod_OnPlrGuiEvt": {
     "type": "resref",
@@ -398,7 +206,7 @@
   },
   "Mod_OnPlrRest": {
     "type": "resref",
-    "value": "x2_mod_def_rest"
+    "value": "_m_rest"
   },
   "Mod_OnPlrTarget": {
     "type": "resref",
@@ -410,15 +218,15 @@
   },
   "Mod_OnPlrUnEqItm": {
     "type": "resref",
-    "value": "x2_mod_def_unequ"
+    "value": ""
   },
   "Mod_OnSpawnBtnDn": {
     "type": "resref",
-    "value": "nw_o0_respawn"
+    "value": ""
   },
   "Mod_OnUnAqreItem": {
     "type": "resref",
-    "value": "eow_unaqu"
+    "value": ""
   },
   "Mod_OnUsrDefined": {
     "type": "resref",
@@ -430,11 +238,11 @@
   },
   "Mod_StartDay": {
     "type": "byte",
-    "value": 9
+    "value": 1
   },
   "Mod_StartHour": {
     "type": "byte",
-    "value": 9
+    "value": 13
   },
   "Mod_StartMonth": {
     "type": "byte",
@@ -471,22 +279,7 @@
         "__struct_id": 0,
         "Name": {
           "type": "cexostring",
-          "value": "X2_SWITCH_CROSSAREA_WALKWAYPOINTS"
-        },
-        "Type": {
-          "type": "dword",
-          "value": 1
-        },
-        "Value": {
-          "type": "int",
-          "value": 1
-        }
-      },
-      {
-        "__struct_id": 0,
-        "Name": {
-          "type": "cexostring",
-          "value": "X0_G_ALLOWSPELLSTOHURT"
+          "value": "DEBUG_MODE"
         },
         "Type": {
           "type": "dword",

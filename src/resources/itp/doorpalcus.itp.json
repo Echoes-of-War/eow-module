@@ -90,17 +90,6 @@
               "__struct_id": 0,
               "ID": {
                 "type": "byte",
-                "value": 10
-              },
-              "STRREF": {
-                "type": "dword",
-                "value": 111808
-              }
-            },
-            {
-              "__struct_id": 0,
-              "ID": {
-                "type": "byte",
                 "value": 6
               },
               "STRREF": {
@@ -135,33 +124,6 @@
               "ID": {
                 "type": "byte",
                 "value": 8
-              },
-              "LIST": {
-                "type": "list",
-                "value": [
-                  {
-                    "__struct_id": 0,
-                    "NAME": {
-                      "type": "cexostring",
-                      "value": "Basic Rounded Town Door"
-                    },
-                    "RESREF": {
-                      "type": "resref",
-                      "value": "eow_bwooddr2"
-                    }
-                  },
-                  {
-                    "__struct_id": 0,
-                    "NAME": {
-                      "type": "cexostring",
-                      "value": "Basic Town Door"
-                    },
-                    "RESREF": {
-                      "type": "resref",
-                      "value": "eow_bwooddoor"
-                    }
-                  }
-                ]
               },
               "STRREF": {
                 "type": "dword",

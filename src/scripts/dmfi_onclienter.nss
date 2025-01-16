@@ -20,5 +20,4 @@ void main()
 
     // initialize DMFI
     dmfiInitialize(oUser);
-
 }

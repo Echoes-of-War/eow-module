@@ -105,7 +105,7 @@ int CNR_BOOL_RESPAWN_PLANTS_NOT_FRUIT = FALSE;
 
 // game XP (not trade XP) awarded on recipe success
 int CNR_BOOL_GAME_XP_SCALAR_ENABLED = FALSE;
-float CNR_FLOAT_GAME_XP_SCALAR = 0.0;
+float CNR_FLOAT_GAME_XP_SCALAR = 0.2;
 
 // To enable the crafting of HCR items, set this flag to TRUE.
 // Note: At this time, only cure potions and animal meat are supported.
@@ -141,7 +141,7 @@ int CNR_BOOL_HIDE_TRADE_JOURNALS_TOP_TEN_LISTS = FALSE;
 // flag to TRUE. When TRUE, players will need to experiment to determine the
 // components required to make a recipe. ** WARNING ** Filtering adds overhead.
 // You will see some lag.
-int CNR_BOOL_HIDE_UNSATISFIED_RECIPES_IN_CRAFTING_CONVOS = TRUE;
+int CNR_BOOL_HIDE_UNSATISFIED_RECIPES_IN_CRAFTING_CONVOS = FALSE;
 
 // If you prefer that crafting convos hide recipes that are statistically impossible
 // for the PC to make, then set this to TRUE. ** WARNING ** Filtering adds overhead.
