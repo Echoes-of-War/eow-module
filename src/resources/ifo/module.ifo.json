@@ -139,6 +139,55 @@
           "type": "resref",
           "value": "area003"
         }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "_closure"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "_permadeath"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "tt_central"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "tt_east"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "tt_north"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "tt_south"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "tt_west"
+        }
       }
     ]
   },
@@ -492,15 +541,15 @@
   },
   "Mod_OnAcquirItem": {
     "type": "resref",
-    "value": "x2_mod_def_aqu"
+    "value": ""
   },
   "Mod_OnActvtItem": {
     "type": "resref",
-    "value": "eow_onact"
+    "value": "_m_activate"
   },
   "Mod_OnClientEntr": {
     "type": "resref",
-    "value": "eow_oce"
+    "value": "_m_enter"
   },
   "Mod_OnClientLeav": {
     "type": "resref",
@@ -516,7 +565,7 @@
   },
   "Mod_OnModLoad": {
     "type": "resref",
-    "value": "eow_oml"
+    "value": "_m_load"
   },
   "Mod_OnModStart": {
     "type": "resref",
@@ -528,19 +577,19 @@
   },
   "Mod_OnPlrChat": {
     "type": "resref",
-    "value": "dmfi_onplychat"
+    "value": "_m_chat"
   },
   "Mod_OnPlrDeath": {
     "type": "resref",
-    "value": "_mod_death"
+    "value": "_m_death"
   },
   "Mod_OnPlrDying": {
     "type": "resref",
-    "value": "_mod_dying"
+    "value": "_m_dying"
   },
   "Mod_OnPlrEqItm": {
     "type": "resref",
-    "value": "x2_mod_def_equ"
+    "value": ""
   },
   "Mod_OnPlrGuiEvt": {
     "type": "resref",
@@ -552,7 +601,7 @@
   },
   "Mod_OnPlrRest": {
     "type": "resref",
-    "value": "eow_onrest"
+    "value": "_m_rest"
   },
   "Mod_OnPlrTarget": {
     "type": "resref",
@@ -564,15 +613,15 @@
   },
   "Mod_OnPlrUnEqItm": {
     "type": "resref",
-    "value": "x2_mod_def_unequ"
+    "value": ""
   },
   "Mod_OnSpawnBtnDn": {
     "type": "resref",
-    "value": "nw_o0_respawn"
+    "value": ""
   },
   "Mod_OnUnAqreItem": {
     "type": "resref",
-    "value": "eow_unaqu"
+    "value": ""
   },
   "Mod_OnUsrDefined": {
     "type": "resref",
