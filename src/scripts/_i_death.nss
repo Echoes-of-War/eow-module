@@ -106,7 +106,7 @@ int GetIsInBleedout(object oPC);
 void SetIsInBleedout(object oPC, int iState);
 
 int GetBleedoutHP(object oPC);
-int SetBleedoutHP(object oPC, int iHP);
+void SetBleedoutHP(object oPC, int iHP);
 
 void DoBleedoutStart(object oPC);
 void DoBleedoutTick(object oPC);
@@ -139,7 +139,7 @@ void SetIsGhost(object oPC, int iState);
 int GetIsGhostArea(object oArea);
 object CreateGhostArea(object oArea);
 
-object SetupGhostArea(object oArea);
+void SetupGhostArea(object oArea);
 
 // PvP
 void PVPSetRemainingLives(object oPC, int iLives);
@@ -316,9 +316,9 @@ void HandleBleedoutDeath(object oPC)
 
 int GetDeathSave(object oPC, int iTriggered = FALSE)
 {
-    string sBaseColor = "<cfÌÿ>";
-    string sFailureColor = "<cÿ;I>"; // Red color for failure
-    string sSuccessColor = "<coþ(>"; // Green color for success
+    string sBaseColor = "<cfï¿½ï¿½>";
+    string sFailureColor = "<cï¿½;I>"; // Red color for failure
+    string sSuccessColor = "<coï¿½(>"; // Green color for success
     string sEndColor = "</c>"; // End color tag
 
     int iDice = DEATH_SAVE_ROLL;
