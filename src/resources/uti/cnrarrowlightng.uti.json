@@ -20,6 +20,10 @@
     "type": "dword",
     "value": 55
   },
+  "Cursed": {
+    "type": "byte",
+    "value": 0
+  },
   "DescIdentified": {
     "type": "cexolocstring",
     "value": {}
@@ -111,5 +115,17 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "cnrarrowlightng"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 31
+  },
+  "xModelPart2": {
+    "type": "word",
+    "value": 21
+  },
+  "xModelPart3": {
+    "type": "word",
+    "value": 21
   }
 }

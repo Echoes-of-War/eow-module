@@ -6,7 +6,7 @@
   },
   "Appearance": {
     "type": "dword",
-    "value": 43
+    "value": 5516
   },
   "AutoRemoveKey": {
     "type": "byte",
@@ -88,6 +88,10 @@
       "0": "Alchemist's Table"
     }
   },
+  "OnClick": {
+    "type": "resref",
+    "value": ""
+  },
   "OnClosed": {
     "type": "resref",
     "value": ""
@@ -158,7 +162,7 @@
   },
   "PortraitId": {
     "type": "word",
-    "value": 401
+    "value": 0
   },
   "Ref": {
     "type": "byte",

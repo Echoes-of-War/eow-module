@@ -20,6 +20,10 @@
     "type": "dword",
     "value": 100
   },
+  "Cursed": {
+    "type": "byte",
+    "value": 0
+  },
   "DescIdentified": {
     "type": "cexolocstring",
     "value": {}
@@ -69,5 +73,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "cnrshldheatcopp"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 23
   }
 }

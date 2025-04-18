@@ -293,5 +293,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "treantskin"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

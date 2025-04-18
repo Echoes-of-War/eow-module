@@ -82,5 +82,17 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "qit_wblclsp001"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 251
+  },
+  "xModelPart2": {
+    "type": "word",
+    "value": 253
+  },
+  "xModelPart3": {
+    "type": "word",
+    "value": 11
   }
 }

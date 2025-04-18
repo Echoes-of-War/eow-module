@@ -18,7 +18,7 @@
   },
   "Cost": {
     "type": "dword",
-    "value": 130
+    "value": 290
   },
   "Cursed": {
     "type": "byte",
@@ -53,14 +53,6 @@
     }
   },
   "ModelPart1": {
-    "type": "byte",
-    "value": 11
-  },
-  "ModelPart2": {
-    "type": "byte",
-    "value": 11
-  },
-  "ModelPart3": {
     "type": "byte",
     "value": 11
   },
@@ -123,5 +115,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "q1_it_trap048"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 11
   }
 }

@@ -20,6 +20,10 @@
     "type": "dword",
     "value": 5
   },
+  "Cursed": {
+    "type": "byte",
+    "value": 0
+  },
   "DescIdentified": {
     "type": "cexolocstring",
     "value": {}
@@ -55,7 +59,7 @@
   },
   "PaletteID": {
     "type": "byte",
-    "value": 1
+    "value": 24
   },
   "Plot": {
     "type": "byte",
@@ -112,5 +116,17 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "cnrbironhammer"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 48
+  },
+  "xModelPart2": {
+    "type": "word",
+    "value": 21
+  },
+  "xModelPart3": {
+    "type": "word",
+    "value": 41
   }
 }

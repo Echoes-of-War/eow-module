@@ -78,5 +78,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "qit_wtray001"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 16
   }
 }

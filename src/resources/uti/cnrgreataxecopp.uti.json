@@ -18,7 +18,11 @@
   },
   "Cost": {
     "type": "dword",
-    "value": 60
+    "value": 250
+  },
+  "Cursed": {
+    "type": "byte",
+    "value": 0
   },
   "DescIdentified": {
     "type": "cexolocstring",
@@ -91,6 +95,99 @@
           "type": "word",
           "value": 0
         }
+      },
+      {
+        "__struct_id": 0,
+        "ChanceAppear": {
+          "type": "byte",
+          "value": 100
+        },
+        "CostTable": {
+          "type": "byte",
+          "value": 4
+        },
+        "CostValue": {
+          "type": "word",
+          "value": 1
+        },
+        "Param1": {
+          "type": "byte",
+          "value": 0
+        },
+        "Param1Value": {
+          "type": "byte",
+          "value": 5
+        },
+        "PropertyName": {
+          "type": "word",
+          "value": 18
+        },
+        "Subtype": {
+          "type": "word",
+          "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ChanceAppear": {
+          "type": "byte",
+          "value": 100
+        },
+        "CostTable": {
+          "type": "byte",
+          "value": 4
+        },
+        "CostValue": {
+          "type": "word",
+          "value": 1
+        },
+        "Param1": {
+          "type": "byte",
+          "value": 0
+        },
+        "Param1Value": {
+          "type": "byte",
+          "value": 5
+        },
+        "PropertyName": {
+          "type": "word",
+          "value": 18
+        },
+        "Subtype": {
+          "type": "word",
+          "value": 17
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ChanceAppear": {
+          "type": "byte",
+          "value": 100
+        },
+        "CostTable": {
+          "type": "byte",
+          "value": 28
+        },
+        "CostValue": {
+          "type": "word",
+          "value": 6
+        },
+        "Param1": {
+          "type": "byte",
+          "value": 255
+        },
+        "Param1Value": {
+          "type": "byte",
+          "value": 0
+        },
+        "PropertyName": {
+          "type": "word",
+          "value": 85
+        },
+        "Subtype": {
+          "type": "word",
+          "value": 0
+        }
       }
     ]
   },
@@ -109,5 +206,17 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "cnrgreataxecopp"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 33
+  },
+  "xModelPart2": {
+    "type": "word",
+    "value": 33
+  },
+  "xModelPart3": {
+    "type": "word",
+    "value": 33
   }
 }

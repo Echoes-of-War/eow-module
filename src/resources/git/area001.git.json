@@ -7,39 +7,39 @@
       "__struct_id": 100,
       "AmbientSndDay": {
         "type": "int",
-        "value": 0
+        "value": 110
       },
       "AmbientSndDayVol": {
         "type": "int",
-        "value": 111
+        "value": 42
       },
       "AmbientSndNight": {
         "type": "int",
-        "value": 0
+        "value": 111
       },
       "AmbientSndNitVol": {
         "type": "int",
-        "value": 10
+        "value": 42
       },
       "EnvAudio": {
         "type": "int",
-        "value": 0
+        "value": 89
       },
       "MusicBattle": {
         "type": "int",
-        "value": 0
+        "value": 35
       },
       "MusicDay": {
         "type": "int",
-        "value": 0
+        "value": 2
       },
       "MusicDelay": {
         "type": "int",
-        "value": 0
+        "value": 90000
       },
       "MusicNight": {
         "type": "int",
-        "value": 0
+        "value": 4
       }
     }
   },

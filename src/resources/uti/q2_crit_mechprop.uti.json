@@ -416,5 +416,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "q2_crit_mechprop"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

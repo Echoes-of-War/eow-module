@@ -18,7 +18,7 @@
   },
   "Cost": {
     "type": "dword",
-    "value": 4
+    "value": 0
   },
   "Cursed": {
     "type": "byte",
@@ -50,14 +50,6 @@
     "type": "byte",
     "value": 11
   },
-  "ModelPart2": {
-    "type": "byte",
-    "value": 11
-  },
-  "ModelPart3": {
-    "type": "byte",
-    "value": 61
-  },
   "PaletteID": {
     "type": "byte",
     "value": 23
@@ -85,5 +77,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "qit_oar001"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 11
   }
 }

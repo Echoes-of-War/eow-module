@@ -34,7 +34,7 @@
   },
   "FogClipDist": {
     "type": "float",
-    "value": 45.0
+    "value": 90.0
   },
   "Height": {
     "type": "int",
@@ -124,7 +124,7 @@
   },
   "SkyBox": {
     "type": "byte",
-    "value": 0
+    "value": 66
   },
   "SunAmbientColor": {
     "type": "dword",
@@ -11904,7 +11904,7 @@
   },
   "Version": {
     "type": "dword",
-    "value": 39
+    "value": 52
   },
   "Width": {
     "type": "int",

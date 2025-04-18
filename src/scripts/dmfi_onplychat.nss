@@ -13,6 +13,7 @@
 //:: 2007.12.27 tsunami282 - implemented hooking tree
 
 #include "dmfi_plychat_inc"
+#include "_inc_chat"
 
 const string DMFI_PLAYERCHAT_SCRIPTNAME = "dmfi_plychat_exe";
 
@@ -21,6 +22,8 @@ void main()
 {
     int nVolume = GetPCChatVolume();
     object oShouter = GetPCChatSpeaker();
+    string sMsg=GetPCChatMessage();
+    HandleChatCommand(oShouter,sMsg);
 
     int bInvoke;
     string sChatHandlerScript;

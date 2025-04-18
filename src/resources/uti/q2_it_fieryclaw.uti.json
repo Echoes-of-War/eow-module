@@ -137,5 +137,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "q2_it_fieryclaw"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

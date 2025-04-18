@@ -356,5 +356,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "q1_it_creitem004"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

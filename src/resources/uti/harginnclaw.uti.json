@@ -137,5 +137,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "harginnclaw"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

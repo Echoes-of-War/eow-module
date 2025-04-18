@@ -20,6 +20,10 @@
     "type": "dword",
     "value": 18
   },
+  "Cursed": {
+    "type": "byte",
+    "value": 0
+  },
   "DescIdentified": {
     "type": "cexolocstring",
     "value": {
@@ -48,7 +52,7 @@
   },
   "PaletteID": {
     "type": "byte",
-    "value": 0
+    "value": 64
   },
   "Plot": {
     "type": "byte",
@@ -105,5 +109,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "cnroatsbread"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 30
   }
 }

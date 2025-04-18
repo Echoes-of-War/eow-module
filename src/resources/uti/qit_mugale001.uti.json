@@ -18,7 +18,7 @@
   },
   "Cost": {
     "type": "dword",
-    "value": 2
+    "value": 0
   },
   "Cursed": {
     "type": "byte",
@@ -75,5 +75,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "qit_mugale001"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 11
   }
 }

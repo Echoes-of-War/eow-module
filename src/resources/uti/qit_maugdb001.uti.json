@@ -18,7 +18,7 @@
   },
   "Cost": {
     "type": "dword",
-    "value": 750
+    "value": 0
   },
   "Cursed": {
     "type": "byte",
@@ -43,14 +43,6 @@
     }
   },
   "ModelPart1": {
-    "type": "byte",
-    "value": 11
-  },
-  "ModelPart2": {
-    "type": "byte",
-    "value": 11
-  },
-  "ModelPart3": {
     "type": "byte",
     "value": 11
   },
@@ -113,5 +105,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "qit_maugdb001"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 11
   }
 }

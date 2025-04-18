@@ -198,5 +198,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "myconidskin"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

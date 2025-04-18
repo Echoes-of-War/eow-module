@@ -201,5 +201,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "qcit_kcrcn_bite"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

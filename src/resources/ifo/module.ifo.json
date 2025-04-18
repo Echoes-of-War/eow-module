@@ -11,49 +11,133 @@
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "tt_north"
+          "value": "01devstorage"
         }
       },
       {
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "tt_central"
+          "value": "dmfi_custom_enc"
         }
       },
       {
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "tt_east"
+          "value": "eow_zazww"
         }
       },
       {
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "tt_west"
+          "value": "eow_zazcarpet"
         }
       },
       {
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "tt_south"
+          "value": "module_setup"
         }
       },
       {
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "_closure"
+          "value": "eow_faldcenter"
         }
       },
       {
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "_permadeath"
+          "value": "eow_faldtradepst"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "eow_faldoutskirt"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "__deathtestroom"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "eow_ncirhanwatch"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "eow_cirhanwatch1"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "eow_ncirhaneast"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "eow_ncirtohills"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "eow_cireastfoot"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "eow_lothrdclimb"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "eow_lothrdpass"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "ath_herbhut1"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "area001"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "area003"
         }
       }
     ]
@@ -64,7 +148,7 @@
   },
   "Mod_CustomTlk": {
     "type": "cexostring",
-    "value": ""
+    "value": "eow1"
   },
   "Mod_CutSceneList": {
     "type": "list",
@@ -80,7 +164,9 @@
   },
   "Mod_Description": {
     "type": "cexolocstring",
-    "value": {}
+    "value": {
+      "0": ""
+    }
   },
   "Mod_DuskHour": {
     "type": "byte",
@@ -88,7 +174,7 @@
   },
   "Mod_Entry_Area": {
     "type": "resref",
-    "value": "tt_central"
+    "value": "eow_lothrdclimb"
   },
   "Mod_Entry_Dir_X": {
     "type": "float",
@@ -100,15 +186,15 @@
   },
   "Mod_Entry_X": {
     "type": "float",
-    "value": 20.0
+    "value": 2.0
   },
   "Mod_Entry_Y": {
     "type": "float",
-    "value": 19.0
+    "value": 45.0
   },
   "Mod_Entry_Z": {
     "type": "float",
-    "value": 0.0
+    "value": 5.0
   },
   "Mod_Expan_List": {
     "type": "list",
@@ -120,11 +206,271 @@
   },
   "Mod_HakList": {
     "type": "list",
-    "value": []
+    "value": [
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "eow_v1_2da"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "eow_v1_set"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "eow_v1_armor_01"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "eow_v1_helm_01"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "eow_v1_body_01"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "eow_v1_heads_01"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "eow_v1_plc_01"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "eow_v1_plc_02"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "eow_v1_tiles_01"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "eow_v1_items_01"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "eow_v1_doors_01"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_doors"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_ee"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_feats"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_loads"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_phenos1"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_phenos2"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_phenos3"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_phenos4"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_reforge"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_skies"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_ext_tilesee"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_ext_tiles"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_tiles1"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_tiles2"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_tiles3"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_tiles4"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_top_2_71"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_core0"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_core1"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_core2"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_core3"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_core4"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_core5"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_core6"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_core7"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "cep2_add_sb_v1"
+        }
+      }
+    ]
   },
   "Mod_ID": {
     "type": "void",
-    "value64": "W5BPIlPRrupiYibv7eWyrw=="
+    "value64": "HtadIWWFrOo6P39xjVhyxQ=="
   },
   "Mod_IsSaveGame": {
     "type": "byte",
@@ -132,29 +478,29 @@
   },
   "Mod_MinGameVer": {
     "type": "cexostring",
-    "value": "1.88"
+    "value": "1.89"
   },
   "Mod_MinPerHour": {
     "type": "byte",
-    "value": 2
+    "value": 30
   },
   "Mod_Name": {
     "type": "cexolocstring",
     "value": {
-      "0": "EoW_Test_v01"
+      "0": "Echoes of War Ch.1"
     }
   },
   "Mod_OnAcquirItem": {
     "type": "resref",
-    "value": ""
+    "value": "x2_mod_def_aqu"
   },
   "Mod_OnActvtItem": {
     "type": "resref",
-    "value": "_m_activate"
+    "value": "eow_onact"
   },
   "Mod_OnClientEntr": {
     "type": "resref",
-    "value": "_m_enter"
+    "value": "eow_oce"
   },
   "Mod_OnClientLeav": {
     "type": "resref",
@@ -170,7 +516,7 @@
   },
   "Mod_OnModLoad": {
     "type": "resref",
-    "value": "_m_load"
+    "value": "eow_oml"
   },
   "Mod_OnModStart": {
     "type": "resref",
@@ -182,19 +528,19 @@
   },
   "Mod_OnPlrChat": {
     "type": "resref",
-    "value": "_m_chat"
+    "value": "dmfi_onplychat"
   },
   "Mod_OnPlrDeath": {
     "type": "resref",
-    "value": "_m_death"
+    "value": "_mod_death"
   },
   "Mod_OnPlrDying": {
     "type": "resref",
-    "value": "_m_dying"
+    "value": "_mod_dying"
   },
   "Mod_OnPlrEqItm": {
     "type": "resref",
-    "value": ""
+    "value": "x2_mod_def_equ"
   },
   "Mod_OnPlrGuiEvt": {
     "type": "resref",
@@ -206,7 +552,7 @@
   },
   "Mod_OnPlrRest": {
     "type": "resref",
-    "value": "_m_rest"
+    "value": "eow_onrest"
   },
   "Mod_OnPlrTarget": {
     "type": "resref",
@@ -218,15 +564,15 @@
   },
   "Mod_OnPlrUnEqItm": {
     "type": "resref",
-    "value": ""
+    "value": "x2_mod_def_unequ"
   },
   "Mod_OnSpawnBtnDn": {
     "type": "resref",
-    "value": ""
+    "value": "nw_o0_respawn"
   },
   "Mod_OnUnAqreItem": {
     "type": "resref",
-    "value": ""
+    "value": "eow_unaqu"
   },
   "Mod_OnUsrDefined": {
     "type": "resref",
@@ -238,11 +584,11 @@
   },
   "Mod_StartDay": {
     "type": "byte",
-    "value": 1
+    "value": 9
   },
   "Mod_StartHour": {
     "type": "byte",
-    "value": 13
+    "value": 9
   },
   "Mod_StartMonth": {
     "type": "byte",
@@ -279,7 +625,7 @@
         "__struct_id": 0,
         "Name": {
           "type": "cexostring",
-          "value": "DEBUG_MODE"
+          "value": "X2_SWITCH_CROSSAREA_WALKWAYPOINTS"
         },
         "Type": {
           "type": "dword",
@@ -288,6 +634,36 @@
         "Value": {
           "type": "int",
           "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "X0_G_ALLOWSPELLSTOHURT"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "FOOD_TAG_LIST"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 3
+        },
+        "Value": {
+          "type": "cexostring",
+          "value": "FOOD_TestFood"
         }
       }
     ]

@@ -478,5 +478,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "q_beholdlichhid"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

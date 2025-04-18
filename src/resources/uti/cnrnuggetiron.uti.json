@@ -6,7 +6,7 @@
   },
   "BaseItem": {
     "type": "int",
-    "value": 29
+    "value": 307
   },
   "Charges": {
     "type": "byte",
@@ -20,6 +20,10 @@
     "type": "dword",
     "value": 0
   },
+  "Cursed": {
+    "type": "byte",
+    "value": 0
+  },
   "DescIdentified": {
     "type": "cexolocstring",
     "value": {
@@ -29,7 +33,7 @@
   "Description": {
     "type": "cexolocstring",
     "value": {
-      "0": "A rough unprocessed nugget"
+      "0": ""
     }
   },
   "Identified": {
@@ -44,11 +48,11 @@
   },
   "ModelPart1": {
     "type": "byte",
-    "value": 82
+    "value": 169
   },
   "PaletteID": {
     "type": "byte",
-    "value": 4
+    "value": 64
   },
   "Plot": {
     "type": "byte",
@@ -65,23 +69,23 @@
         },
         "CostTable": {
           "type": "byte",
-          "value": 0
+          "value": 28
         },
         "CostValue": {
           "type": "word",
-          "value": 0
+          "value": 9
         },
         "Param1": {
           "type": "byte",
-          "value": 11
+          "value": 255
         },
         "Param1Value": {
           "type": "byte",
-          "value": 1
+          "value": 0
         },
         "PropertyName": {
           "type": "word",
-          "value": 81
+          "value": 85
         },
         "Subtype": {
           "type": "word",
@@ -105,5 +109,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "cnrnuggetiron"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 169
   }
 }

@@ -9,6 +9,22 @@
           "type": "byte",
           "value": 6
         },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ominous breathings"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "q_mnstbreath"
+              }
+            }
+          ]
+        },
         "STRREF": {
           "type": "dword",
           "value": 6694
@@ -19,6 +35,22 @@
         "ID": {
           "type": "byte",
           "value": 13
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "cnrForgeFire"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cnrforgefire"
+              }
+            }
+          ]
         },
         "STRREF": {
           "type": "dword",
@@ -41,6 +73,22 @@
         "ID": {
           "type": "byte",
           "value": 7
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "cnrBeeSounds"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cnrbeesounds"
+              }
+            }
+          ]
         },
         "STRREF": {
           "type": "dword",

@@ -6,7 +6,7 @@
   },
   "Appearance": {
     "type": "dword",
-    "value": 58
+    "value": 4680
   },
   "AutoRemoveKey": {
     "type": "byte",
@@ -160,7 +160,7 @@
   },
   "PortraitId": {
     "type": "word",
-    "value": 416
+    "value": 0
   },
   "Ref": {
     "type": "byte",

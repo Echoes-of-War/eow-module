@@ -28,6 +28,10 @@
     "type": "dword",
     "value": 881
   },
+  "Cursed": {
+    "type": "byte",
+    "value": 0
+  },
   "DescIdentified": {
     "type": "cexolocstring",
     "value": {
@@ -131,5 +135,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "cnrhelmbasiro"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 21
   }
 }

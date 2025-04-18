@@ -137,5 +137,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "it_scarecrowslam"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

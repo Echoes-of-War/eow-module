@@ -50,6 +50,7 @@ void main()
   CnrAddTradeskill(CNR_TRADESKILL_GEM_CRAFTING, "Gem Crafting");
   CnrAddTradeskill(CNR_TRADESKILL_TAILORING, "Tailoring");
   CnrAddTradeskill(CNR_TRADESKILL_FOOD_CRAFTING, "Food Crafting");
+  CnrAddTradeskill(CNR_TRADESKILL_HERBALISM, "Herbalism");
 
   // Module builders: You should add your trade skills to the
   // file "user_trade_init" so that future versions of

@@ -168,5 +168,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "firetrollprops"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

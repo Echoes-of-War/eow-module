@@ -20,6 +20,10 @@
     "type": "dword",
     "value": 203
   },
+  "Cursed": {
+    "type": "byte",
+    "value": 0
+  },
   "DescIdentified": {
     "type": "cexolocstring",
     "value": {
@@ -105,5 +109,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "cnrbrofeldneck"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 10
   }
 }

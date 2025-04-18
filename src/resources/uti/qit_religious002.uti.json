@@ -78,5 +78,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "qit_religious002"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 63
   }
 }

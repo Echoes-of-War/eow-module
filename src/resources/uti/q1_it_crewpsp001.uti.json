@@ -106,5 +106,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "q1_it_crewpsp001"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

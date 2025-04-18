@@ -96,7 +96,7 @@
   },
   "OnClosed": {
     "type": "resref",
-    "value": "close_corpse"
+    "value": "_destroy_corpse"
   },
   "OnDamaged": {
     "type": "resref",

@@ -1,10 +1,86 @@
 {
   "__data_type": "UTC ",
+  "Appearance_Head": {
+    "type": "byte",
+    "value": 0
+  },
   "Appearance_Type": {
     "type": "word",
     "value": 1002
   },
+  "ArmorPart_RFoot": {
+    "type": "byte",
+    "value": 0
+  },
   "BodyBag": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_Belt": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_LBicep": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_LFArm": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_LFoot": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_LHand": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_LShin": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_LShoul": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_LThigh": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_Neck": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_Pelvis": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_RBicep": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_RFArm": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_RHand": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_RShin": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_RShoul": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_RThigh": {
+    "type": "byte",
+    "value": 0
+  },
+  "BodyPart_Torso": {
     "type": "byte",
     "value": 0
   },
@@ -31,6 +107,22 @@
         }
       }
     ]
+  },
+  "Color_Hair": {
+    "type": "byte",
+    "value": 0
+  },
+  "Color_Skin": {
+    "type": "byte",
+    "value": 0
+  },
+  "Color_Tattoo1": {
+    "type": "byte",
+    "value": 0
+  },
+  "Color_Tattoo2": {
+    "type": "byte",
+    "value": 0
   },
   "Comment": {
     "type": "cexostring",
@@ -526,5 +618,81 @@
   "Wis": {
     "type": "byte",
     "value": 13
+  },
+  "xAppearance_Head": {
+    "type": "word",
+    "value": 0
+  },
+  "xArmorPart_RFoot": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_Belt": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_LBicep": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_LFArm": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_LFoot": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_LHand": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_LShin": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_LShoul": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_LThigh": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_Neck": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_Pelvis": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_RBicep": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_RFArm": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_RHand": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_RShin": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_RShoul": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_RThigh": {
+    "type": "word",
+    "value": 0
+  },
+  "xBodyPart_Torso": {
+    "type": "word",
+    "value": 0
   }
 }

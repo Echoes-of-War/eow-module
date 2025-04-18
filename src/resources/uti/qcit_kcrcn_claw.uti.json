@@ -170,5 +170,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "qcit_kcrcn_claw"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

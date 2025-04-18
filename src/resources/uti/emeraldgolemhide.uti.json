@@ -415,5 +415,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "emeraldgolemhide"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

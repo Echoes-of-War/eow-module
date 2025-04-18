@@ -385,5 +385,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "it_scarecrowhide"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 1
   }
 }

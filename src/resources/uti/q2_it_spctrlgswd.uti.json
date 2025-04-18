@@ -81,5 +81,17 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "q2_it_spctrlgswd"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 81
+  },
+  "xModelPart2": {
+    "type": "word",
+    "value": 81
+  },
+  "xModelPart3": {
+    "type": "word",
+    "value": 81
   }
 }

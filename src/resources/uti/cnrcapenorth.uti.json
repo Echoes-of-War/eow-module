@@ -12,6 +12,14 @@
     "type": "byte",
     "value": 0
   },
+  "Cloth1Color": {
+    "type": "byte",
+    "value": 0
+  },
+  "Cloth2Color": {
+    "type": "byte",
+    "value": 0
+  },
   "Comment": {
     "type": "cexostring",
     "value": ""
@@ -19,6 +27,10 @@
   "Cost": {
     "type": "dword",
     "value": 1441
+  },
+  "Cursed": {
+    "type": "byte",
+    "value": 0
   },
   "DescIdentified": {
     "type": "cexolocstring",
@@ -36,11 +48,27 @@
     "type": "byte",
     "value": 1
   },
+  "Leather1Color": {
+    "type": "byte",
+    "value": 0
+  },
+  "Leather2Color": {
+    "type": "byte",
+    "value": 0
+  },
   "LocalizedName": {
     "type": "cexolocstring",
     "value": {
       "0": "Cape of the North"
     }
+  },
+  "Metal1Color": {
+    "type": "byte",
+    "value": 0
+  },
+  "Metal2Color": {
+    "type": "byte",
+    "value": 0
   },
   "ModelPart1": {
     "type": "byte",
@@ -105,5 +133,9 @@
   "TemplateResRef": {
     "type": "resref",
     "value": "cnrcapenorth"
+  },
+  "xModelPart1": {
+    "type": "word",
+    "value": 8
   }
 }

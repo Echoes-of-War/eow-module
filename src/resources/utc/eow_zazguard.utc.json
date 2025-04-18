@@ -345,6 +345,81 @@
           "type": "word",
           "value": 0
         }
+      },
+      {
+        "__struct_id": 1,
+        "InventoryRes": {
+          "type": "resref",
+          "value": "cnrboltpiercing"
+        },
+        "Repos_PosX": {
+          "type": "word",
+          "value": 2
+        },
+        "Repos_Posy": {
+          "type": "word",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 2,
+        "InventoryRes": {
+          "type": "resref",
+          "value": "cnrboltpiercing"
+        },
+        "Repos_PosX": {
+          "type": "word",
+          "value": 3
+        },
+        "Repos_Posy": {
+          "type": "word",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 3,
+        "InventoryRes": {
+          "type": "resref",
+          "value": "cnrboltpiercing"
+        },
+        "Repos_PosX": {
+          "type": "word",
+          "value": 4
+        },
+        "Repos_Posy": {
+          "type": "word",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 4,
+        "InventoryRes": {
+          "type": "resref",
+          "value": "cnrboltpiercing"
+        },
+        "Repos_PosX": {
+          "type": "word",
+          "value": 5
+        },
+        "Repos_Posy": {
+          "type": "word",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 5,
+        "InventoryRes": {
+          "type": "resref",
+          "value": "cnrboltpiercing"
+        },
+        "Repos_PosX": {
+          "type": "word",
+          "value": 6
+        },
+        "Repos_Posy": {
+          "type": "word",
+          "value": 0
+        }
       }
     ]
   },
